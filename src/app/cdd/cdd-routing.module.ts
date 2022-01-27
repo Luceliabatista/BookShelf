@@ -1,7 +1,9 @@
-import { ClassesComponent } from './classes/classes.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
+
+import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
+import { ClassesComponent } from './classes/classes.component';
 
 const routes: Routes = [
   {
@@ -9,6 +11,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-arte', component: GenArtesComponent
+  },
+  {
+    path: 'livros-empreendedorismo', component: EmpreendViewComponent
   }
 ];
 

@@ -1,6 +1,7 @@
+import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { FeedComponent } from './feed/feed.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { canActivate, redirectUnauthorizedTo, redirectLoggedInTo } from '@angular/fire/auth-guard';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
@@ -26,7 +27,11 @@ const routes: Routes = [
   },
   {
     path: 'livros-artes', component: GenArtesComponent
+  },
+  {
+    path: 'livros-empreendedorismo', component: EmpreendViewComponent
   }
+
 ];
 
 @NgModule({
