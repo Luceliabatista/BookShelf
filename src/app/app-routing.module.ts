@@ -1,6 +1,7 @@
+import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { FeedComponent } from './feed/feed.component';
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { canActivate, redirectUnauthorizedTo, redirectLoggedInTo } from '@angular/fire/auth-guard';
 
@@ -21,7 +22,11 @@ const routes: Routes = [
     path: 'cdd',
     loadChildren: () => import('./cdd/cdd.module').then(c => c.CddModule),
     ...canActivate(enviarSemLogin)
+  },
+    {
+    path: 'livros-empreendedorismo', component: EmpreendViewComponent
   }
+
 ];
 
 @NgModule({
