@@ -1,0 +1,12 @@
+[
+  {"id_livro": "0", "tituloLivro": "Dobre seus Lucros", "autorLivro": "Bob Fifer"},
+  {"id_livro": "1", "tituloLivro": "O Poder do Hábito", "autorLivro": "Charles Duhigg"},
+  {"id_livro": "2", "tituloLivro": "De Zero a Um", "autorLivro": "Peter Thiel"},
+  {"id_livro": "3", "tituloLivro": "O Monge e o Executivo", "autorLivro": "James C. Hunter"},
+  {"id_livro": "4", "tituloLivro": "O Investidor Inteligente", "autorLivro": "Benjamin Graham"},
+  {"id_livro": "5", "tituloLivro": "Empresas Feitas para Vencer - Good to Great", "autorLivro": "Jim Collins"},
+  {"id_livro": "6", "tituloLivro": "A Startup Enxuta", "autorLivro": "Eric Ries"},
+  {"id_livro": "7", "tituloLivro": "Sonho Grande", "autorLivro": "Cristiane Correa"},
+  {"id_livro": "8", "tituloLivro": "Meditações", "autorLivro": "Marco Aurelio"},
+  {"id_livro": "9", "tituloLivro": "O Ponto da Virada", "autorLivro": "Malcon Gladwell"}
+]
