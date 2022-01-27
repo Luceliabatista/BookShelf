@@ -7,12 +7,14 @@ import { AppCompartilhadoModule } from './../app-compartilhado/app-compartilhado
 import { CddRoutingModule } from './cdd-routing.module';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';
+import { Tec } from './classTec/tec.view/tec.view.component';
 
 
 @NgModule({
   declarations: [
     ClassesComponent,
-    EmpreendViewComponent
+    EmpreendViewComponent,
+    Tec.ViewComponent
   ],
   imports: [
     CommonModule,
