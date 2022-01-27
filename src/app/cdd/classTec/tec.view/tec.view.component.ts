@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './tec.view.component.html',
   styleUrls: ['./tec.view.component.scss']
 })
-export class Tec.ViewComponent implements OnInit {
+export class TecViewComponent implements OnInit {
 
   constructor() { }
 
