@@ -3,24 +3,24 @@ import { MatDialog } from '@angular/material/dialog';
 import { catchError, Observable, of } from 'rxjs';
 import { AppDialogosComponent } from 'src/app/app-compartilhado/app-dialogos/app-dialogos.component';
 
-import { Empreendedorismo } from '../../modelos/empreendedorismo';
-import { EmpreendedorismoService } from '../../service/empreendedorismo.service';
+import { Tecnologia } from '../../modelos/tecnologia';
+import { TecnologiaService } from '../../service/tecnologia.service';
 
 @Component({
-  selector: 'app-empreend-view',
-  templateUrl: './empreend-view.component.html',
-  styleUrls: ['./empreend-view.component.scss']
+  selector: 'app-tec.view',
+  templateUrl: './tec.view.component.html',
+  styleUrls: ['./tec.view.component.scss']
 })
-export class EmpreendViewComponent implements OnInit {
+export class TecViewComponent implements OnInit {
 
-  livrosEmpreend$: Observable <Empreendedorismo[]>;
+  livrosTec$: Observable <Tecnologia[]>;
   visaoColunas=['id_livro','tituloLivro','autorLivro'];
 
   constructor(
-    private empreendService: EmpreendedorismoService,
+    private tecService: TecnologiaService,
     public dialogo: MatDialog
     ) {
-    this.livrosEmpreend$ = empreendService.listagemEmpreend()
+    this.livrosTec$ = tecService.listagemTec()
     .pipe(
       catchError(error =>{
         this.abrirDialogoErro("Erro ao carregar a tabela: #BS -"+error.status)
