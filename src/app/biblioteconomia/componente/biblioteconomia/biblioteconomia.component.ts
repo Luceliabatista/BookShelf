@@ -30,7 +30,7 @@ export class BiblioteconomiaComponent {
     private breakpointObserver: BreakpointObserver,
     private biblioService: BiblioteconomiaService,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
-    ) {
+  ) {
       this.cards$ = biblioService.listagemBiblio()
       .pipe(
         catchError(error =>{

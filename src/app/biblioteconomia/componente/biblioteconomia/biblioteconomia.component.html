@@ -1,29 +1,33 @@
 <div class="grid-container">
-  <h1 class="mat-h1" *ngIf="usuario$ | async as usuario">Reportagem: {{usuario.displayName}}</h1>
-  <mat-grid-list cols="2" rowHeight="350px">
-    <mat-grid-tile *ngFor="let card of cards$ | async" [colspan]="card.cols" [rowspan]="card.rows">
+  <h1 class="mat-h1" *ngIf="usuario$ | async as usuario">
+    Página de Biblioteconomia
+  </h1>
+  <mat-grid-list cols="2" rowHeight="285px">
+    <mat-grid-tile
+      *ngFor="let card of cards$ | async"
+      [colspan]="card.cols"
+      [rowspan]="card.rows"
+    >
       <mat-card class="dashboard-card">
-        <mat-card-header>
+        <img mat-card-image [src]="card.img" [alt]="card.img" />
 
+        <mat-card-header>
           <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>{{card.title}}</mat-card-title>
-          <mat-card-subtitle>{{card.publishDate}}</mat-card-subtitle>
+
+          <mat-card-title>{{ card.title }}</mat-card-title>
         </mat-card-header>
-          <img mat-card-image [src]="card.img" [alt]="card.img">
         <mat-card-content class="dashboard-card-content">
-          <div>{{card.resumo}}</div>
+          <div>{{ card.resumo }}</div>
         </mat-card-content>
         <mat-nav-list>
-           <mat-list-item *ngFor="let link of card.link">
+          <mat-list-item *ngFor="let link of card.link">
             <a matLine [href]="link.ref">{{ link.texto }}</a>
             <button mat-icon-button>
-              <mat-icon>info </mat-icon>
+              <mat-icon>info</mat-icon>
             </button>
           </mat-list-item>
         </mat-nav-list>
       </mat-card>
     </mat-grid-tile>
   </mat-grid-list>
-
 </div>
-

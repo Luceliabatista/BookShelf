@@ -11,7 +11,7 @@ import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreen
 import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
-
+import { BiblioteconomiaComponent } from './biblioteconomia/componente/biblioteconomia/biblioteconomia.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -33,7 +33,8 @@ const routes: Routes = [
   },
   {
     path: 'biblioteconomia',
-    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule)
+    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule),
+    ...canActivate(enviarSemLogin)
   },
   {
     path: 'livros-artes', component: GenArtesComponent

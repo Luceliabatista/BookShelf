@@ -1,97 +1,94 @@
 [
   {
-    "id": "Pratica1",
-    "title": "livros-reportagem",
+    "id": "1",
+    "title": "Tipografia do Arco do Cego",
     "link": [
       {
-        "ref": "https://www.napratica.org.br/licoes-de-carreira-de-ana-paula-martinez/",
+        "ref": "https://www.bn.gov.br/explore/colecoes/tipografia-arco-cego",
         "texto": "Clique aqui"
       }
     ],
-    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/07/ana-paula-martinez-768x512.jpg.webp",
-    "publishDate": "2019-06-09",
-    "source": "Na Prática",
-    "resumo": "Em um esforço de compilar experiências e aprendizados reais a fim de passar para novos",
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/tipografia-arco-cego/colecao-1758-tipografia-arco-cego.jpg",
+    "resumo": "Ativa entre 1799 e 1801, em Lisboa, Portugal, a Tipografia do Arco do Cego foi dirigida pelo brasileiro José Mariano da Conceição Veloso (1741-1811), frei franciscano e naturalista, um dos mais importantes botânicos da época.",
     "cols": 1,
     "rows": 2
   },
   {
-    "id": "Pratica2",
-    "title": "Não sabe o que ler? Confira 10 leituras que CEOs indicam",
+    "id": "2",
+    "title": "Arquivo Arthur Ramos",
     "link": [
       {
-        "ref": "https://www.napratica.org.br/leituras-que-ceos-indicam/",
+        "ref": "https://www.bn.gov.br/explore/colecoes/arquivo-arthur-ramos",
         "texto": "Clique aqui"
       }
     ],
-    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/07/leituras-que-CEOs-indicam-696x464.jpg.webp",
-    "publishDate": "2019-06-09",
-    "source": "Na Prática",
-    "resumo": "Aqui no Na Prática frequentemente falamos sobre a importância da leitura. Mas você está sem inspiração",
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/arquivo-arthur-ramos/colecao-3382-arquivo-arthur-ramos.jpg",
+
+    "resumo": "A tipologia inclui folhetos, recortes de jornais, anotações sobre psiquiatria, etnografia, folclore e ciências sociais, originais de artigos, fotografias, desenhos e uma extensa correspondência do titular e de terceiros.",
     "cols": 1,
     "rows": 2
   },
   {
-    "id": "Pratica3",
-    "title": "10 livros e podcasts indicados por Líderes Estudar",
+    "id": "3",
+    "title": "Benedicto Ottoni",
     "link": [
       {
-        "ref": "https://www.napratica.org.br/livros-podcasts-indicados-por-lideres-estudar/",
+        "ref": "https://www.bn.gov.br/explore/colecoes/benedicto-ottoni",
         "texto": "Clique aqui"
       }
     ],
-    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/12/conteudos-lideres-768x512.jpg.webp",
-    "publishDate": "2019-06-09",
-    "source": "Na Prática",
-    "resumo": "Desde 1991, a Fundação Estudar – ONG da qual o Na Prática é uma das iniciativas –  fomenta o crescimento",
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/benedicto-ottoni/colecao-1757-benedicto-ottoni.jpg",
+
+
+    "resumo": "Este conjunto de livros, formado por cerca de 12.600 obras sobre o Brasil Colônia e o Brasil Independente, pertenceu ao colecionador e bibliófilo José Carlos Rodrigues (1844-1923). ",
     "cols": 1,
     "rows": 2
   },
   {
-    "id": "Pratica4",
-    "title": "5 dicas para desenvolver o hábito de leitura e ler mais em 2021",
+    "id": "4",
+    "title": "Condes de Castelo Melhor",
     "link": [
       {
-        "ref": "https://www.napratica.org.br/dicas-para-desenvolver-o-habito-de-leitura-e-ler-mais/",
+        "ref": "https://www.bn.gov.br/explore/colecoes/condes-castelo-melhor",
         "texto": "Clique aqui"
       }
     ],
-    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2021/01/mulher-lendo-sentada-696x464.jpg.webp",
-    "publishDate": "2019-06-09",
-    "source": "Na Prática",
-    "resumo": "Com tantas opções de entretenimento disponíveis, nem sempre é fácil começar a ler. A nova temporada.",
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/condes-castelo-melhor/colecao-1753-condes-castelo-melhor.jpg",
+
+
+    "resumo": "A Coleção Condes de Castelo Melhor é composta por diversas cópias de documentos manuscritos, que se associam direta ou indiretamente à história dessa casa nobiliárquica portuguesa em diferentes gerações, e também por escritos do Padre Antônio Vieira.",
     "cols": 1,
     "rows": 2
   },
   {
-    "id": "Pratica5",
-    "title": "Bill Gates recomenda 5 livros em 2020 – veja a lista",
+    "id": "5",
+    "title": "Thereza Christina Maria",
     "link": [
       {
-        "ref": "https://www.napratica.org.br/livros-que-bill-gates-recomenda-em-2020/",
+        "ref": "https://www.bn.gov.br/explore/colecoes/thereza-christina-maria",
         "texto": "Clique aqui"
       }
     ],
-    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/12/bill-gates-lista-livros-2020-696x464.jpg.webp",
-    "publishDate": "2019-06-09",
-    "source": "Na Prática",
-    "resumo": "Bill Gates, cofundador da Microsoft, é um leitor ávido. Por isso, com frequência pelo menos anual, publica",
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/thereza-christina-maria/colecao-1751-thereza-christina-maria.jpg",
+
+
+    "resumo": "A grandeza da coleção exigiu, na época, a construção de galerias e a reforma de espaços para dar conta do acréscimo que a doação imperial representou para o acervo da instituição.",
     "cols": 1,
     "rows": 2
   },
   {
-    "id": "Pratica6",
-    "title": "15 livros de negócios que todo profissional precisa conhecer.",
+    "id": "6",
+    "title": "Diogo Barbosa Machado",
     "link": [
       {
-        "ref": "https://www.napratica.org.br/livros-de-negocios-influentes/",
+        "ref": "https://www.bn.gov.br/explore/colecoes/diogo-barbosa-machado",
         "texto": "Clique aqui"
       }
     ],
-    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/10/young-woman-studying-library-768x512.jpg.webp",
-    "publishDate": "2019-06-09",
-    "source": "Na Prática",
-    "resumo": "Em 29 de outubro é celebrado o Dia Nacional do Livro. A data foi escolhida para comemorar o dia em que foi",
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/diogo-barbosa-machado/colecao-1750-diogo-barbosa-machado.jpg",
+
+
+    "resumo": "Pertencente ao acervo da Real Biblioteca, a antiga livraria de Diogo Barbosa Machado chegou ao Brasil em 1810, logo depois da corte portuguesa. ",
     "cols": 1,
     "rows": 2
   }
