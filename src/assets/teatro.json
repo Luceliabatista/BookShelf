@@ -1,0 +1,52 @@
+[
+  {
+    "id_livro": "0",
+    "tituloLivro": "A Preparação do Ator",
+    "autorLivro": "Constantin Stanislavski"
+  },
+  {
+    "id_livro": "1",
+    "tituloLivro": "A Construção da Personagem",
+    "autorLivro": "Constantin Stanislavski"
+  },
+  {
+    "id_livro": "2",
+    "tituloLivro": "A Criação de um Papel",
+    "autorLivro": "Constantin Stanislavski"
+  },
+  {
+    "id_livro": "3",
+    "tituloLivro": "Manual Mínimo do Ator",
+    "autorLivro": "Dario Fo"
+  },
+  {
+    "id_livro": "4",
+    "tituloLivro": "História concisa do teatro brasileiro",
+    "autorLivro": "Décio de Almeida Prado"
+  },
+  {
+    "id_livro": "5",
+    "tituloLivro": "História Mundial do Teatro",
+    "autorLivro": "Margot Berthold"
+  },
+  {
+    "id_livro": "6",
+    "tituloLivro": "A Arte do Ator",
+    "autorLivro": "Jean-Jacques Roubine"
+  },
+  {
+    "id_livro": "7",
+    "tituloLivro": "Panorama do Teatro Brasileiro",
+    "autorLivro": "Sábato Magaldi"
+  },
+  {
+    "id_livro": "8",
+    "tituloLivro": "Hamlet",
+    "autorLivro": "William Shakespeare"
+  },
+  {
+    "id_livro": "9",
+    "tituloLivro": "O Herói de Mil Faces",
+    "autorLivro": "Joseph Campbell"
+  }
+]
