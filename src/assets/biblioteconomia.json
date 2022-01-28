@@ -1,61 +1,97 @@
 [
   {
-    "titulo": "Conheça os integrantes da 19ª Gestão do CFB",
-    "img": "../../assets/imagens/cover1.png",
-    "conteudo":"O Conselho Federal de Biblioteconomia (CFB) já está sob novo comando! Na manhã do dia 5 de janeiro...",
-    "link":[
-      {"ref":"https://www.theenemy.com.br/social/criticas/review-the-witcher-temporada-2#:~:text=Honestamente%2C%20a%20breve%20apari%C3%A7%C3%A3o%20da,Ciri%20em%20termos%20de%20magia.", "texto":"The Enemy"},
-      {"ref":"https://jovemnerd.com.br/nerdbunker/the-witcher-vale-a-pena-os-livros/","texto":"Jovem Nerd"}
+    "id": "Pratica1",
+    "title": "livros-reportagem",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/licoes-de-carreira-de-ana-paula-martinez/",
+        "texto": "Clique aqui"
+      }
     ],
-    "cols": 2,
-    "rows": 3
-  },
-  {
-    "titulo": "“Os bibliotecários devem conhecer o funcionamento do Conselho”",
-    "img": "../../assets/imagens/cover2.png",
-    "conteudo":"A Chapa RenovAção foi eleita para assumir o triênio 2018/2020 da 18ª gestão do Conselho Regional de Biblioteconomia...",
-    "link":[
-      {"ref":"https://exame.com/carreira/13-livros-para-pensar-e-fazer-diferente-daqui-para-frente/", "texto":"Revista Exame"},
-      {"ref":"https://www.pensador.com/livros_para_mudar_a_sua_vida/","texto":"O Pensador"}
-    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/07/ana-paula-martinez-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Em um esforço de compilar experiências e aprendizados reais a fim de passar para novos",
     "cols": 1,
     "rows": 2
   },
   {
-    "titulo": "Conheça a programação realizada pela ARB e CRB-10 para comemorar o Dia do Bibliotecário!",
-    "img": "../../assets/imagens/cover3.png",
-    "conteudo":"Conheça a programação realizada pela ARB e CRB-10 para comemorar o Dia do Bibliotecário! As atividades são gratuitas...",
-    "link":[
-      {"ref":"https://www.prolivro.org.br/2021/01/20/ciclo-de-debates-da-retratos-da-leitura/", "texto":"Pró-Livro"},
-      {"ref":"https://brasilescola.uol.com.br/literatura/capitu-traiu-bentinho.htm","texto":"Brasil Escola"},
-      {"ref":"https://teoriaedebate.org.br/estante/a-ditadura-envergonhada-v-1-a-ditadura-escancarada-v-2/","texto":"Teoria e Debate"},
-      {"ref":"https://brasilescola.uol.com.br/literatura/capitu-traiu-bentinho.htm","texto":"Brasil Escola"}
+    "id": "Pratica2",
+    "title": "Não sabe o que ler? Confira 10 leituras que CEOs indicam",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/leituras-que-ceos-indicam/",
+        "texto": "Clique aqui"
+      }
     ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/07/leituras-que-CEOs-indicam-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Aqui no Na Prática frequentemente falamos sobre a importância da leitura. Mas você está sem inspiração",
     "cols": 1,
     "rows": 2
   },
   {
-    "titulo": "Biblioteca do Senado inaugura exposição em homenagem ao Dia do Bibliotecário",
-    "img": "../../assets/imagens/cover4.png",
-    "conteudo":"Aqui você vai encontrar os livros que serão as melhores fontes de debates e construção de retórica para o mês de janeiro.",
-    "link":[
-      {"ref":"https://fvc.org.br/", "texto":"Biblioteca FVC"},
-      {"ref":"https://www.revistabula.com/7802-os-melhores-livros-da-historia-da-literatura/","texto":"Revista Bula"},
-      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Anazon Livros Gratuitos"}
+    "id": "Pratica3",
+    "title": "10 livros e podcasts indicados por Líderes Estudar",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-podcasts-indicados-por-lideres-estudar/",
+        "texto": "Clique aqui"
+      }
     ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/12/conteudos-lideres-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Desde 1991, a Fundação Estudar – ONG da qual o Na Prática é uma das iniciativas –  fomenta o crescimento",
     "cols": 1,
     "rows": 2
   },
   {
-    "titulo": "Educação e Leitura: Fundação Victor Civita",
-    "subtitulo":"Carlos Leite e os 50 livros da história",
-    "img": "../../assets/imagens/cover4.png",
-    "conteudo":"Aqui você vai encontrar os livros que serão as melhores fontes de debates e construção de retórica para o mês de janeiro.",
-    "link":[
-      {"ref":"https://fvc.org.br/", "texto":"Biblioteca FVC"},
-      {"ref":"https://www.revistabula.com/7802-os-melhores-livros-da-historia-da-literatura/","texto":"Revista Bula"},
-      {"ref":"https://www.amazon.com.br/b?ie=UTF8&node=6311441011","texto":"Anazon Livros Gratuitos"}
+    "id": "Pratica4",
+    "title": "5 dicas para desenvolver o hábito de leitura e ler mais em 2021",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/dicas-para-desenvolver-o-habito-de-leitura-e-ler-mais/",
+        "texto": "Clique aqui"
+      }
     ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2021/01/mulher-lendo-sentada-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Com tantas opções de entretenimento disponíveis, nem sempre é fácil começar a ler. A nova temporada.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica5",
+    "title": "Bill Gates recomenda 5 livros em 2020 – veja a lista",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-que-bill-gates-recomenda-em-2020/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/12/bill-gates-lista-livros-2020-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Bill Gates, cofundador da Microsoft, é um leitor ávido. Por isso, com frequência pelo menos anual, publica",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica6",
+    "title": "15 livros de negócios que todo profissional precisa conhecer.",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-de-negocios-influentes/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/10/young-woman-studying-library-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Em 29 de outubro é celebrado o Dia Nacional do Livro. A data foi escolhida para comemorar o dia em que foi",
     "cols": 1,
     "rows": 2
   }

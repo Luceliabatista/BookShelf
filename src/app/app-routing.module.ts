@@ -32,6 +32,11 @@ const routes: Routes = [
     ...canActivate(enviarSemLogin)
   },
   {
+    path: 'biblioteconomia',
+    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule),
+    ...canActivate(enviarSemLogin)
+  },
+  {
     path: 'livros-artes', component: GenArtesComponent
   },
   {
@@ -41,9 +46,9 @@ const routes: Routes = [
     path: 'livros-tecnologia', component: TecViewComponent
   },
   {
-<<<<<<< HEAD
     path: 'livros-psicologia', component: GenPsiComponent
-=======
+  },
+  {
     path: 'livros-reportagem', component: ClassReportagemComponent
   },
   {
@@ -51,7 +56,6 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
->>>>>>> main
   }
 
 
