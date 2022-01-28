@@ -4,6 +4,7 @@ import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { ClassReportagemComponent } from './cdd/class-reportagem/class-reportagem.component';
 import { ClassDireitoComponent } from './cdd/class-direito/class-direito.component';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
@@ -37,6 +38,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-tecnologia', component: TecViewComponent
+  },
+  {
+    path: 'livros-reportagem', component: ClassReportagemComponent
   },
   {
     path: 'livros-teatro', component: ClassTeatroComponent
