@@ -1,0 +1,5 @@
+export interface Direito {
+  id_livro: string,
+  tituloLivro: string,
+  autorLivro: string,
+}

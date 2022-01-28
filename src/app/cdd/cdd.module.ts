@@ -11,10 +11,12 @@ import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
 import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
+import { SugestaoComponent } from './sugestao/sugestao.component';
 
 
 @NgModule({
   declarations: [
+
     ClassesComponent,
     GenArtesComponent,
     EmpreendViewComponent,
@@ -22,14 +24,18 @@ import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
     GenArtesComponent,
     ClassTeatroComponent,
     ClassDireitoComponent,
-    TecViewComponent
+    TecViewComponent,
+    SugestaoComponent
+
   ],
     imports: [
+
     CommonModule,
     CddRoutingModule,
     AppMaterialModule,
     AppCompartilhadoModule,
     MatListModule
+    
   ]
 })
 export class CddModule { }
