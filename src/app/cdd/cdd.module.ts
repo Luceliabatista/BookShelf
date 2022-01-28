@@ -10,6 +10,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
+import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 
 
 @NgModule({
@@ -17,6 +18,9 @@ import { TecViewComponent } from './classTec/tec.view/tec.view.component';
     ClassesComponent,
     GenArtesComponent,
     EmpreendViewComponent,
+    TecViewComponent,
+    GenArtesComponent,
+    ClassTeatroComponent,
     ClassDireitoComponent,
     TecViewComponent
   ],

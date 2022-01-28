@@ -1,3 +1,4 @@
+import { ClassTeatroComponent } from './cdd/class-teatro/class-teatro.component';
 import { NgModule } from '@angular/core';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
@@ -36,6 +37,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-tecnologia', component: TecViewComponent
+  },
+  {
+    path: 'livros-teatro', component: ClassTeatroComponent
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
