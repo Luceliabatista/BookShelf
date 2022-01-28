@@ -11,8 +11,12 @@ import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreen
 import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
+<<<<<<< HEAD
 import { ClassSugestaoComponent } from './cdd/class-sugestao/class-sugestao.component';
 
+=======
+import { BiblioteconomiaComponent } from './biblioteconomia/componente/biblioteconomia/biblioteconomia.component';
+>>>>>>> 4e6174f3531b9dfd97166969cf797c66795b7639
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -30,6 +34,11 @@ const routes: Routes = [
   {
     path: 'cdd',
     loadChildren: () => import('./cdd/cdd.module').then(c => c.CddModule),
+    ...canActivate(enviarSemLogin)
+  },
+  {
+    path: 'biblioteconomia',
+    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule),
     ...canActivate(enviarSemLogin)
   },
   {
