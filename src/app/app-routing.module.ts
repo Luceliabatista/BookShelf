@@ -33,8 +33,7 @@ const routes: Routes = [
   },
   {
     path: 'biblioteconomia',
-    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule),
-    ...canActivate(enviarSemLogin)
+    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule)
   },
   {
     path: 'livros-artes', component: GenArtesComponent
