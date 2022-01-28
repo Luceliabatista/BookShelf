@@ -1,0 +1,10 @@
+export interface Biblioteconomia {
+  id: string;
+  title: string;
+  link: [{ ref: string, texto: string }];
+  img : string,
+  publishDate: string;
+  resumo: string;
+  cols: number;
+  rows: number;
+}

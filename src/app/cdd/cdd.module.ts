@@ -10,12 +10,9 @@ import { ClassesComponent } from './classes/classes.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
-<<<<<<< HEAD
 import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
-=======
 import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
->>>>>>> main
 
 
 @NgModule({
@@ -25,14 +22,11 @@ import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
     EmpreendViewComponent,
     TecViewComponent,
     GenArtesComponent,
-<<<<<<< HEAD
-    GenPsiComponent
-=======
+    GenPsiComponent,
     ClassReportagemComponent,
     ClassTeatroComponent,
     ClassDireitoComponent,
     TecViewComponent
->>>>>>> main
   ],
     imports: [
     CommonModule,
