@@ -10,6 +10,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
+import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { SugestaoComponent } from './sugestao/sugestao.component';
 
@@ -22,6 +23,7 @@ import { SugestaoComponent } from './sugestao/sugestao.component';
     EmpreendViewComponent,
     TecViewComponent,
     GenArtesComponent,
+    ClassReportagemComponent,
     ClassTeatroComponent,
     ClassDireitoComponent,
     TecViewComponent,
