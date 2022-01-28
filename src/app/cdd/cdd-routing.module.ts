@@ -1,3 +1,4 @@
+import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -18,6 +19,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-tecnologia', component: TecViewComponent
+  },
+  {
+    path: 'livros-teatro', component: ClassTeatroComponent
   }
 
 ];

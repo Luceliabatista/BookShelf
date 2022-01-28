@@ -9,6 +9,7 @@ import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
+import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { TecViewComponent } from './classTec/tec.view/tec.view.component';
     ClassesComponent,
     EmpreendViewComponent,
     TecViewComponent,
-    GenArtesComponent
+    GenArtesComponent,
+    ClassTeatroComponent
   ],
     imports: [
     CommonModule,
