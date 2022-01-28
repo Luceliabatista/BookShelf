@@ -40,7 +40,7 @@ import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
     FeedComponent,
     AppLoginComponent,
     AppCadastroComponent,
-    
+
   ],
   imports: [
     BrowserModule,

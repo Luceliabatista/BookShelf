@@ -9,6 +9,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
 import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
+import { ClassSugestaoComponent } from './class-sugestao/class-sugestao.component';
 
 const routes: Routes = [
   {
@@ -34,6 +35,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
+  },
+  {
+    path: 'sugestao', component: ClassSugestaoComponent
   }
 
 ];

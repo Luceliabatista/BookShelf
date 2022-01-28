@@ -12,8 +12,8 @@ import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';
 import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
-import { SugestaoComponent } from './sugestao/sugestao.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
+import { ClassSugestaoComponent } from './class-sugestao/class-sugestao.component';
 
 
 @NgModule({
@@ -29,7 +29,8 @@ import { TecViewComponent } from './classTec/tec.view/tec.view.component';
     ClassTeatroComponent,
     ClassDireitoComponent,
     TecViewComponent,
-    SugestaoComponent
+    ClassSugestaoComponent
+
   ],
     imports: [
 

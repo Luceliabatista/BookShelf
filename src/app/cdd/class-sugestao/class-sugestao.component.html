@@ -1,0 +1,30 @@
+<div class="grid-container">
+  <h1 class="mat-h1" *ngIf="usuario$ | async as usuario">Sugestões para : {{usuario.displayName}}</h1>
+  <mat-grid-list cols="2" rowHeight="350px">
+    <mat-grid-tile *ngFor="let sugestao of sugestoes$ | async" [colspan]="sugestao.cols" [rowspan]="sugestao.rows">
+      <mat-card class="dashboard-card">
+        <mat-card-header>
+
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{sugestao.title}}</mat-card-title>
+          <mat-card-subtitle>{{sugestao.publishDate}}</mat-card-subtitle>
+        </mat-card-header>
+          <img mat-card-image [src]="sugestao.img" [alt]="sugestao.img">
+        <mat-card-content class="dashboard-card-content">
+          <div>{{sugestao.resumo}}</div>
+        </mat-card-content>
+        <mat-nav-list>
+           <mat-list-item *ngFor="let link of sugestao.link">
+            <a matLine [href]="link.ref">{{ link.texto }}</a>
+            <button mat-icon-button>
+              <mat-icon>info </mat-icon>
+            </button>
+          </mat-list-item>
+        </mat-nav-list>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+</div>
+
+

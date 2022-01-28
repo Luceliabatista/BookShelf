@@ -1,5 +1,11 @@
-export interface Direito {
-  id_livro: string,
-  tituloLivro: string,
-  autorLivro: string,
+export interface SugestaoModel {
+  id: string;
+  title: string;
+  link: [{ ref: string, texto: string }];
+  img : string,
+  publishDate: string;
+  source: string;
+  resumo: string;
+  cols: number;
+  rows: number;
 }

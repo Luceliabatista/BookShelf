@@ -11,6 +11,7 @@ import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreen
 import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
+import { ClassSugestaoComponent } from './cdd/class-sugestao/class-sugestao.component';
 
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -51,6 +52,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
+  },
+  {
+    path: 'sugestao', component: ClassSugestaoComponent
   }
 
 
