@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AbstractControl, FormBuilder, FormControl, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
+import { AbstractControl, FormBuilder, FormControl, FormGroup, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
 
@@ -25,7 +25,6 @@ export function passwordMatchValidator(): ValidatorFn {
   styleUrls: ['./app-cadastro.component.scss']
 })
 export class AppCadastroComponent implements OnInit {
-
   formularioCadastro = this.loginBuilder.group({
     nome: new FormControl('', Validators.required),
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -71,8 +70,23 @@ export class AppCadastroComponent implements OnInit {
         })
       ).subscribe(() => {
         this.rotas.navigate(['/'])
+        this.resetarCamposCadastro();
       });
   }
+
+  // #51 - Rotina para limpar campos de cadastro [10 pts]
+  resetarCamposCadastro() {
+    this.formularioCadastro.reset();
+    console.log('Limpou campos cadastro');
+    this.formularioCadastro = new FormGroup({
+      nome: new FormControl(null),
+      email: new FormControl(null),
+      senha: new FormControl(null),
+      confirmaSenha: new FormControl(null),
+    })
+
+  }
+
   ngOnInit(): void {
   }
 }
