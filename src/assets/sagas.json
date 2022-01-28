@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Saga1",
+    "title": "Harry Potter",
+    "link": [
+      {
+        "ref": "https://tecnoblog.net/responde/a-ordem-cronologica-dos-filmes-para-assistir-a-saga-de-harry-potter/",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://files.tecnoblog.net/wp-content/uploads/2020/12/ordem-filmes-harry-potter-e1609427898909-700x393.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Harry Potter é uma das sagas mais amadas de todos os tempos nos cinemas e nos livros",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga2",
+    "title": "Crepusculo",
+    "link": [
+      {
+        "ref": "https://www.tecmundo.com.br/cultura-geek/225260-veja-ordem-correta-assistir-saga-crepusculo.htm",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://tm.ibxk.com.br/2021/09/16/16160229477373.jpg?ims=1120x420 ",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Ispirado na obra da escritora Stephenie Meyer, A Saga Crepúsculo é um dos maiores fenômenos da cultura pop.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga3",
+    "title": "Senhor dos Aneis",
+    "link": [
+      {
+        "ref": "https://pt.wikipedia.org/wiki/O_Senhor_dos_Anéis_(série_de_filmes)",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://upload.wikimedia.org/wikipedia/pt/8/87/Ringstrilogyposter.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "O Senhor dos Anéis é uma trilogia cinematográfica dirigida por Peter Jackson, com base na obra-prima homónima de J. R. R. Tolkien",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga4",
+    "title": "As brumas de Avalon",
+    "link": [
+      {
+        "ref": "https://pt.wikipedia.org/wiki/As_Brumas_de_Avalon",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://www.storytel.com/br/pt/series/35268-As-brumas-de-Avalon?gclid=Cj0KCQiAxc6PBhCEARIsAH8Hff3Anst26SFxDlHhEb8zXPntckdgwfhS8ZXS0uzGmfyTWxJ8NXCet7YaAmhsEALw_wcB",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "A lendária história de Camelot, através dos olhos das mulheres que a tornaram possível. Em uma Bretanha que é ao mesmo tempo real e lendária",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga5",
+    "title": "As Crônicas de Nárnia",
+    "link": [
+      {
+        "ref": "https://pt.wikipedia.org/wiki/The_Chronicles_of_Narnia",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51lT73pEoTL._SX382_BO1,204,203,200_.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": " As Crónicas de Nárnia, é uma série de sete romances de alta fantasia, escrita pelo autor irlandês C. S. Lewis.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga6",
+    "title": "O guia do mochileiro das galáxias",
+    "link": [
+      {
+        "ref": "https://muraldoslivros.com/ordem-dos-livros-do-guia-do-mochileiro-das-galaxias/",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://www.saraiva.com.br/o-guia-do-mochileiro-das-galaxias-serie-o-mochileiro-das-galaxias-vol-1-2851521/p",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Este é o primeiro título da famosa série escrita por Douglas Adams, que conta as aventuras espaciais do inglês Arthur Dent e de seu amigo Ford Prefect.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga7",
+    "title": "Mundo novo, de Chris Weitz",
+    "link": [
+      {
+        "ref": "https://becoliterario.com/resenha-mundo-novo-chris-weitz/",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51sunNtomfL._SX346_BO1,204,203,200_.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Neste mundo novo, só restaram os adolescentes… e a sobrevivência da humanidade está em suas mãos.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga8",
+    "title": "Jogos Vorazes",
+    "link": [
+      {
+        "ref": "http://livrosemserie.com.br/sagas/j/jogos-vorazes/",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/41APnNqyIrL._SX258_BO1,204,203,200_QL70_ML2_.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "onstituída por uma suntuosa Capital cercada de 12 distritos periféricos, a nação de Panem se ergueu após a destruição dos Estados Unidos",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga9",
+    "title": "Assassins Creed",
+    "link": [
+      {
+        "ref": "https://pt.wikipedia.org/wiki/Assassin%27s_Creed",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51LxFVAla7L._SX340_BO1,204,203,200_.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Um viking não pode ter medo, se deseja alcançar a glória! Noruega, metade do século IX de nossa era.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Saga9",
+    "title": "Outlander",
+    "link": [
+      {
+        "ref": "https://muraldoslivros.com/ordem-dos-livros-outlander",
+        "texto": "Saber +"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51O9ZwJjmeS._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "“Outlander” narra a história de Claire Randall, uma ex-enfermeira que retorna aos braços do marido Frank Randall após o fim da Segunda Guerra Mundial.",
+    "cols": 1,
+    "rows": 2
+  }
+]
