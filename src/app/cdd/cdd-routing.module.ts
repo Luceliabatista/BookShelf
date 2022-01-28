@@ -6,6 +6,7 @@ import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';
+import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
 import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 
@@ -23,6 +24,9 @@ const routes: Routes = [
     path: 'livros-tecnologia', component: TecViewComponent
   },
   {
+<<<<<<< HEAD
+    path: 'livros-psicologia', component: GenPsiComponent
+=======
     path: 'livros-reportagem', component: ClassReportagemComponent,
   },
   {
@@ -30,6 +34,7 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
+>>>>>>> main
   }
 
 ];
