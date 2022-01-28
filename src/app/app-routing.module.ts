@@ -1,10 +1,13 @@
-import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
-import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
-import { FeedComponent } from './feed/feed.component';
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
+import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
-import { canActivate, redirectUnauthorizedTo, redirectLoggedInTo } from '@angular/fire/auth-guard';
+
+import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { ClassDireitoComponent } from './cdd/class-direito/class-direito.component';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
+import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
+import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
+import { FeedComponent } from './feed/feed.component';
 
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -30,7 +33,14 @@ const routes: Routes = [
   },
   {
     path: 'livros-empreendedorismo', component: EmpreendViewComponent
+  },
+  {
+    path: 'livros-tecnologia', component: TecViewComponent
+  },
+  {
+    path: 'livros-direito', component: ClassDireitoComponent
   }
+
 
 ];
 

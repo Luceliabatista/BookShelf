@@ -9,6 +9,7 @@ import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-vi
 import { ClassesComponent } from './classes/classes.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
+import { TecViewComponent } from './classTec/tec.view/tec.view.component';
 
 
 @NgModule({
@@ -16,9 +17,10 @@ import { ClassDireitoComponent } from './class-direito/class-direito.component';
     ClassesComponent,
     GenArtesComponent,
     EmpreendViewComponent,
-    ClassDireitoComponent
+    ClassDireitoComponent,
+    TecViewComponent
   ],
-  imports: [
+    imports: [
     CommonModule,
     CddRoutingModule,
     AppMaterialModule,

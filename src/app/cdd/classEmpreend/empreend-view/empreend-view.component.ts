@@ -35,8 +35,6 @@ export class EmpreendViewComponent implements OnInit {
     })
   }
 
-
-
   ngOnInit(): void {
   }
 
