@@ -24,17 +24,16 @@ const routes: Routes = [
     path: 'livros-tecnologia', component: TecViewComponent
   },
   {
-<<<<<<< HEAD
     path: 'livros-psicologia', component: GenPsiComponent
-=======
-    path: 'livros-reportagem', component: ClassReportagemComponent,
+  },
+  {
+    path: 'livros-reportagem', component: ClassReportagemComponent
   },
   {
     path: 'livros-teatro', component: ClassTeatroComponent
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
->>>>>>> main
   }
 
 ];
