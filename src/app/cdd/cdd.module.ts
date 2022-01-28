@@ -8,13 +8,15 @@ import { CddRoutingModule } from './cdd-routing.module';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
+import { ClassDireitoComponent } from './class-direito/class-direito.component';
 
 
 @NgModule({
   declarations: [
     ClassesComponent,
     GenArtesComponent,
-    EmpreendViewComponent
+    EmpreendViewComponent,
+    ClassDireitoComponent
   ],
   imports: [
     CommonModule,
