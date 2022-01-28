@@ -5,6 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
+import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
 
@@ -35,7 +36,11 @@ const routes: Routes = [
   },
   {
     path: 'livros-tecnologia', component: TecViewComponent
+  },
+  {
+    path: 'livros-psicologia', component: GenPsiComponent
   }
+
 
 
 ];
