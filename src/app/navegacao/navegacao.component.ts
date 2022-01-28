@@ -9,6 +9,7 @@ import { AppLoginComponent } from './../app-login/app-login.component';
 import { MenuNavegador } from './../modelosInterface/menuNavegador';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { NavegacaoService } from './../servicosInterface/navegacao.service';
+import { HotToastService } from '@ngneat/hot-toast';
 
 @Component({
   selector: 'app-navegacao',
@@ -35,7 +36,8 @@ export class NavegacaoComponent {
     private telaLogin: MatDialog,
     private rotas: Router,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService,
-    private navegadorService: NavegacaoService
+    private navegadorService: NavegacaoService,
+    private toast: HotToastService
     ) {
       this.itensMenu$ = navegadorService.listagemMenu()
       .pipe(
@@ -52,7 +54,13 @@ export class NavegacaoComponent {
     }
 
     sairUsuario(){
-      this.autenticacaoFirebaseService.sairLogin().subscribe(() =>{
+      this.autenticacaoFirebaseService.sairLogin().pipe(
+        this.toast.observe({
+          success: 'Você deslogou do BookShelf',
+          loading: 'Redirecionando...',
+          error: 'Algo deu errado, tente novamente ou fale com o suporte'
+        })
+      ).subscribe(() =>{
         this.rotas.navigate([''])
       })
     }

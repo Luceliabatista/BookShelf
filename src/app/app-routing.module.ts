@@ -1,8 +1,11 @@
+import { ClassTeatroComponent } from './cdd/class-teatro/class-teatro.component';
 import { NgModule } from '@angular/core';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { ClassReportagemComponent } from './cdd/class-reportagem/class-reportagem.component';
+import { ClassDireitoComponent } from './cdd/class-direito/class-direito.component';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
 import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
@@ -38,7 +41,17 @@ const routes: Routes = [
     path: 'livros-tecnologia', component: TecViewComponent
   },
   {
+<<<<<<< HEAD
     path: 'livros-psicologia', component: GenPsiComponent
+=======
+    path: 'livros-reportagem', component: ClassReportagemComponent
+  },
+  {
+    path: 'livros-teatro', component: ClassTeatroComponent
+  },
+  {
+    path: 'livros-direito', component: ClassDireitoComponent
+>>>>>>> main
   }
 
 
