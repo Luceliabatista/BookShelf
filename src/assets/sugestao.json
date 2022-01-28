@@ -1,12 +1,98 @@
 [
-  {"id_livro": "0", "tituloLivro": "Vade Mecum 2021", "autorLivro": "Saraiva"},
-  {"id_livro": "1", "tituloLivro": "Racismo Estrutural", "autorLivro": "Silvio de Almeida"},
-  {"id_livro": "2", "tituloLivro": "Direito Constitucional Esquematizado", "autorLivro": "Pedro Lenza"},
-  {"id_livro": "3", "tituloLivro": "Direito Processual Penal", "autorLivro": "Aury Lopes JR"},
-  {"id_livro": "4", "tituloLivro": "O Príncipe: Texto Integral", "autorLivro": "Nicolau Maquiavel"},
-  {"id_livro": "5", "tituloLivro": "Empresas Feitas para Vencer - Good to Great", "autorLivro": "Jim Collins"},
-  {"id_livro": "6", "tituloLivro": "Justiça: O que é fazer a coisa certa", "autorLivro": "Michael J. Sandel"},
-  {"id_livro": "7", "tituloLivro": "COMO PASSAR NA OAB ", "autorLivro": "Wander Garcia"},
-  {"id_livro": "8", "tituloLivro": "Dos Delitos e das Penas", "autorLivro": "Cesare Beccaria"},
-  {"id_livro": "9", "tituloLivro": "Vigiar e punir: Nascimento da prisão", "autorLivro": " Michel Foucault"}
+  {
+    "id": "01",
+    "title": "Vigiar e punir: Nascimento da prisão",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Vigiar-punir-Nascimento-Michel-Foucault/dp/8532605087",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/715cug5raAL.jpg",
+    "publishDate": "Editora Vozes; 42º edição (1 janeiro 2014)",
+    "source": "Amazon",
+    "resumo": "É um estudo científico, fartamente documentado, sobre a evolução histórica da legislação penal e respectivos métodos coercitivos e punitivos adotados pelo poder público na repressão da delinqüência. Métodos que vão da violência física até instituições correcionais. Esta edição revista traz também uma nova capa mais moderna e atual.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica2",
+    "title": "Não sabe o que ler? Confira 10 leituras que CEOs indicam",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/leituras-que-ceos-indicam/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/07/leituras-que-CEOs-indicam-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Aqui no Na Prática frequentemente falamos sobre a importância da leitura. Mas você está sem inspiração",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica3",
+    "title": "10 livros e podcasts indicados por Líderes Estudar",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-podcasts-indicados-por-lideres-estudar/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/12/conteudos-lideres-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Desde 1991, a Fundação Estudar – ONG da qual o Na Prática é uma das iniciativas –  fomenta o crescimento",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica4",
+    "title": "5 dicas para desenvolver o hábito de leitura e ler mais em 2021",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/dicas-para-desenvolver-o-habito-de-leitura-e-ler-mais/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2021/01/mulher-lendo-sentada-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Com tantas opções de entretenimento disponíveis, nem sempre é fácil começar a ler. A nova temporada.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica5",
+    "title": "Bill Gates recomenda 5 livros em 2020 – veja a lista",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-que-bill-gates-recomenda-em-2020/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/12/bill-gates-lista-livros-2020-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Bill Gates, cofundador da Microsoft, é um leitor ávido. Por isso, com frequência pelo menos anual, publica",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica6",
+    "title": "15 livros de negócios que todo profissional precisa conhecer.",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-de-negocios-influentes/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/10/young-woman-studying-library-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Em 29 de outubro é celebrado o Dia Nacional do Livro. A data foi escolhida para comemorar o dia em que foi",
+    "cols": 1,
+    "rows": 2
+  }
 ]

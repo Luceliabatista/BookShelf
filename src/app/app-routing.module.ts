@@ -8,6 +8,7 @@ import { ClassReportagemComponent } from './cdd/class-reportagem/class-reportage
 import { ClassDireitoComponent } from './cdd/class-direito/class-direito.component';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
+import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
 
@@ -40,6 +41,9 @@ const routes: Routes = [
     path: 'livros-tecnologia', component: TecViewComponent
   },
   {
+<<<<<<< HEAD
+    path: 'livros-psicologia', component: GenPsiComponent
+=======
     path: 'livros-reportagem', component: ClassReportagemComponent
   },
   {
@@ -47,7 +51,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
+>>>>>>> main
   }
+
 
 
 ];
