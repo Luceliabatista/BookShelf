@@ -27,7 +27,7 @@ const routes: Routes = [
     path: 'livros-psicologia', component: GenPsiComponent
   },
   {
-    path: 'livros-reportagem', component: ClassReportagemComponent
+    path: 'livros-reportagem', component: ClassReportagemComponent,
   },
   {
     path: 'livros-teatro', component: ClassTeatroComponent

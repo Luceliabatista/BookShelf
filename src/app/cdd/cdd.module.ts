@@ -17,6 +17,7 @@ import { TecViewComponent } from './classTec/tec.view/tec.view.component';
 
 @NgModule({
   declarations: [
+
     ClassesComponent,
     GenArtesComponent,
     EmpreendViewComponent,
@@ -26,14 +27,16 @@ import { TecViewComponent } from './classTec/tec.view/tec.view.component';
     ClassReportagemComponent,
     ClassTeatroComponent,
     ClassDireitoComponent,
-    TecViewComponent
+    TecViewComponent,
   ],
     imports: [
+
     CommonModule,
     CddRoutingModule,
     AppMaterialModule,
     AppCompartilhadoModule,
     MatListModule
+
   ]
 })
 export class CddModule { }
