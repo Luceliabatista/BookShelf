@@ -1,0 +1,98 @@
+[
+  {
+    "id": "Pratica1",
+    "title": "livros-reportagem",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/licoes-de-carreira-de-ana-paula-martinez/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/07/ana-paula-martinez-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Em um esforço de compilar experiências e aprendizados reais a fim de passar para novos",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica2",
+    "title": "Não sabe o que ler? Confira 10 leituras que CEOs indicam",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/leituras-que-ceos-indicam/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/07/leituras-que-CEOs-indicam-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Aqui no Na Prática frequentemente falamos sobre a importância da leitura. Mas você está sem inspiração",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica3",
+    "title": "10 livros e podcasts indicados por Líderes Estudar",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-podcasts-indicados-por-lideres-estudar/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2019/12/conteudos-lideres-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Desde 1991, a Fundação Estudar – ONG da qual o Na Prática é uma das iniciativas – fomenta o crescimento",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica4",
+    "title": "5 dicas para desenvolver o hábito de leitura e ler mais em 2021",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/dicas-para-desenvolver-o-habito-de-leitura-e-ler-mais/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2021/01/mulher-lendo-sentada-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Com tantas opções de entretenimento disponíveis, nem sempre é fácil começar a ler. A nova temporada",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica5",
+    "title": "Bill Gates recomenda 5 livros em 2020 – veja a lista",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-que-bill-gates-recomenda-em-2020/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/12/bill-gates-lista-livros-2020-696x464.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Bill Gates, cofundador da Microsoft, é um leitor ávido. Por isso, com frequência pelo menos anual, publica",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "Pratica6",
+    "title": "15 livros de negócios que todo profissional precisa conhecer!",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-de-negocios-influentes/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.napratica.org.br/wp-content/webp-express/webp-images/uploads/2020/10/young-woman-studying-library-768x512.jpg.webp",
+    "publishDate": "2019-06-09",
+    "source": "Na Prática",
+    "resumo": "Em 29 de outubro é celebrado o Dia Nacional do Livro. A data foi escolhida para comemorar o dia em que foi",
+    "cols": 1,
+    "rows": 2
+  }
+]
