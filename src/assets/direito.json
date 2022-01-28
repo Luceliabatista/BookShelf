@@ -1,0 +1,12 @@
+[
+  {"id_livro": "0", "tituloLivro": "Vade Mecum 2021", "autorLivro": "Saraiva"},
+  {"id_livro": "1", "tituloLivro": "Racismo Estrutural", "autorLivro": "Silvio de Almeida"},
+  {"id_livro": "2", "tituloLivro": "Direito Constitucional Esquematizado", "autorLivro": "Pedro Lenza"},
+  {"id_livro": "3", "tituloLivro": "Direito Processual Penal", "autorLivro": "Aury Lopes JR"},
+  {"id_livro": "4", "tituloLivro": "O Príncipe: Texto Integral", "autorLivro": "Nicolau Maquiavel"},
+  {"id_livro": "5", "tituloLivro": "Empresas Feitas para Vencer - Good to Great", "autorLivro": "Jim Collins"},
+  {"id_livro": "6", "tituloLivro": "Justiça: O que é fazer a coisa certa", "autorLivro": "Michael J. Sandel"},
+  {"id_livro": "7", "tituloLivro": "COMO PASSAR NA OAB ", "autorLivro": "Wander Garcia"},
+  {"id_livro": "8", "tituloLivro": "Dos Delitos e das Penas", "autorLivro": "Cesare Beccaria"},
+  {"id_livro": "9", "tituloLivro": "Vigiar e punir: Nascimento da prisão", "autorLivro": " Michel Foucault"}
+]
