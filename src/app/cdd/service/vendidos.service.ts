@@ -8,7 +8,7 @@ import { Vendidos } from './../modelos/vendidos';
 })
 export class VendidosService {
 
-  private readonly uriAPI = '../../../assets/masvendidos.json'
+  private readonly uriAPI = '../../../assets/vendidos.json'
 
   constructor(private http: HttpClient) {  }
 

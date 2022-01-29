@@ -8,6 +8,6 @@
     {"_idLivro":"6", "nomeLivro": "Mulheres que correm com os lobos", "autor":"Clarissa Pinkola Estes", "numVendas":1.928},
     {"_idLivro":"7", "nomeLivro": "Cientista do marketing", "autor":"Dener Lippert", "numVendas":1.615},
     {"_idLivro":"8", "nomeLivro": "Amor & gelato", "autor":"Jenna Evans Welch", "numVendas":1.517},
-    {"_idLivro":"9", "nomeLivro": "Torto arado", "autor":"Itamar Vieira Junior", "numVendas":1.510}
+    {"_idLivro":"9", "nomeLivro": "Torto arado", "autor":"Itamar Vieira Junior", "numVendas":1.510},
     {"_idLivro":"10", "nomeLivro": "A garota do lago", "autor":"Charlie Donlea", "numVendas":1.394}
 ]
