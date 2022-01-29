@@ -15,9 +15,10 @@ export class DireitoService {
 
   listagemDireito(){
     return this.http.get<Direito[]> (this.uriAPI)
-    .pipe(first(),
-    delay(500),
-    tap(apiDireito => console.log(apiDireito)))
+    .pipe(
+      first(),
+      delay(500),
+      tap(apiDireito => console.log(apiDireito)))
   }
 
 }

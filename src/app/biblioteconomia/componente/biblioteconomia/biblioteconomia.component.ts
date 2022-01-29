@@ -4,9 +4,9 @@ import { catchError, Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
-
 import { Biblioteconomia } from '../../models/biblioteconomia';
 import { BiblioteconomiaService } from '../../service/biblioteconomia.service';
+
 
 @Component({
   selector: 'app-biblioteconomia',

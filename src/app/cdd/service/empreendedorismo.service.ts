@@ -15,10 +15,10 @@ export class EmpreendedorismoService {
 
   listagemEmpreend() {
     return this.livrosEmpreend.get<Empreendedorismo[]>(this.uriAPI)
-      .pipe(
-        first(),
-        delay(500),
-        tap(apiEmpreend => console.log(apiEmpreend))
+    .pipe(
+      first(),
+      delay(500),
+      tap(apiEmpreend => console.log(apiEmpreend))
     )
   }
 }

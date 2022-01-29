@@ -1,7 +1,8 @@
-import { Generos } from './../modelos/generos';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { delay, first, tap} from 'rxjs';
+import { delay, first, tap } from 'rxjs';
+
+import { Generos } from './../modelos/generos';
 
 @Injectable({
   providedIn: 'root'

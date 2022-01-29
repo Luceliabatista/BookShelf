@@ -1,7 +1,8 @@
-import { first, delay, tap } from 'rxjs';
-import { Teatro } from './../modelos/teatro';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { delay, first, tap } from 'rxjs';
+
+import { Teatro } from './../modelos/teatro';
 
 @Injectable({
   providedIn: 'root'

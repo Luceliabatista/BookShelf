@@ -15,11 +15,7 @@ export class SagasService {
     return this.http.get<Sagas[]>(this.uriAPI).pipe(
       first(),
       delay(500),
-      tap(apiSagas=>{
-        console.log(apiSagas)
-      })
-
+      tap(apiSagas => console.log(apiSagas))
     )
   }
-
 }

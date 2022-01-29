@@ -1,6 +1,6 @@
-import { delay, first, tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { delay, first, tap } from 'rxjs';
 
 import { Psicologia } from '../modelos/psicologia';
 
@@ -21,6 +21,4 @@ export class PsicologiaService {
         tap(apiPsicologia => console.log(apiPsicologia))
       )
   }
-
-
 }

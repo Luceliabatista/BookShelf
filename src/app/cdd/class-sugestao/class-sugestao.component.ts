@@ -1,9 +1,10 @@
-import { SugestaoModel } from './../modelos/sugestao';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component, OnInit } from '@angular/core';
 import { catchError, map, Observable, of } from 'rxjs';
-import {SugestaoService} from 'src/app/cdd/service/sugestao.service'
+import { SugestaoService } from 'src/app/cdd/service/sugestao.service';
 import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
+
+import { SugestaoModel } from './../modelos/sugestao';
 
 @Component({
   selector: 'app-class-sugestao',

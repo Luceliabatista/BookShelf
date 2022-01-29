@@ -1,9 +1,10 @@
-import { Psicologia } from './../../modelos/psicologia';
 import { Component, OnInit } from '@angular/core';
-import { catchError, Observable, of } from 'rxjs';
-import { PsicologiaService } from '../../service/psicologia.service';
 import { MatDialog } from '@angular/material/dialog';
+import { catchError, Observable, of } from 'rxjs';
 import { AppDialogosComponent } from 'src/app/app-compartilhado/app-dialogos/app-dialogos.component';
+
+import { PsicologiaService } from '../../service/psicologia.service';
+import { Psicologia } from './../../modelos/psicologia';
 
 @Component({
   selector: 'app-gen-psi',
