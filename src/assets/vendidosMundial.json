@@ -1,0 +1,16 @@
+[
+    {"_idLivro":"0", "nomeLivro": "Dom Quixote", "autor":"Miguel de Cervantes", "numVendas":"500 milhões"},
+    {"_idLivro":"1", "nomeLivro": "Um Conto de Duas Cidades", "autor":"Charles Dickens", "numVendas":"200 milhões"},
+    {"_idLivro":"2", "nomeLivro": " O Senhor dos Anéis", "autor":"J.R.R Tolkien ", "numVendas":"150 milhões"},
+    {"_idLivro":"3", "nomeLivro": "O Pequeno Príncipe", "autor":"Antoine de Saint-Exupéry", "numVendas":"140 milhões"},
+    {"_idLivro":"4", "nomeLivro": "O Hobbit", "autor":"J.R.R Tolkien", "numVendas":"100 milhões"},
+    {"_idLivro":"5", "nomeLivro": "Harry Potter e a Pedra Filosofal", "autor":" J.K Rowling", "numVendas":"120 milhões"},
+    {"_idLivro":"6", "nomeLivro": "O Leão, a Feiticeira e o Guarda-Roupa", "autor":"C.S. Lewis", "numVendas":" 85 milhões"},
+    {"_idLivro":"7", "nomeLivro": "Ela, a Feiticeira,", "autor":"H. Rider Haggard", "numVendas":"83 milhões"},
+    {"_idLivro":"8", "nomeLivro": " O Código da Vinci", "autor":"Dan Brown  ", "numVendas":"80 milhões"},
+    {"_idLivro":"9", "nomeLivro": "Harry Potter e a Câmara Secreta", "autor":" J.K. Rowling", "numVendas":"77 milhões"},
+    {"_idLivro":"10", "nomeLivro": "Harry Potter e o Enigma do Príncipe", "autor":"J. K. Rowling", "numVendas":"65 milhões"}
+]
+
+
+
