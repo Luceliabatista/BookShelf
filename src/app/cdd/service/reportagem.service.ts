@@ -15,10 +15,7 @@ export class ReportagemService {
     return this.http.get<Reportagem[]>(this.uriAPI).pipe(
       first(),
       delay(500),
-      tap(apiReportagem=>{
-        console.log(apiReportagem)
-      })
-
+      tap(apiReportagem => console.log(apiReportagem))
     )
   }
 

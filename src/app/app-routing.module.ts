@@ -21,7 +21,7 @@ const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
 const routes: Routes = [
   {
-     path: '', pathMatch: 'prefix', redirectTo: 'app-app-cadastro'
+     path: '', pathMatch: 'full', redirectTo: 'app-app-cadastro'
   },
   {
     path:'app-app-cadastro', component: AppCadastroComponent

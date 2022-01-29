@@ -3,70 +3,70 @@
     "_idGenero": "0",
     "nomeGenero": "Generalidades",
     "link": "/livros-reportagem",
-    "decimalGenero": "40",
+    "decimalGenero": "400",
     "livrosGenero": 423
   },
   {
     "_idGenero": "1",
     "nomeGenero": "Filosofia e Psicologia",
     "link": "/livros-psicologia",
-    "decimalGenero": "10",
+    "decimalGenero": "100",
     "livrosGenero": 125
   },
   {
     "_idGenero": "2",
     "nomeGenero": "Religião",
     "link": "/livros-religiao",
-    "decimalGenero": "30",
+    "decimalGenero": "300",
     "livrosGenero": 366
   },
   {
     "_idGenero": "3",
     "nomeGenero": "Ciências Sociais",
     "link": "/livros-ciencias-sociais",
-    "decimalGenero": "20",
-    "livrosGenero": 203
+    "decimalGenero": "300",
+    "livrosGenero": 306
   },
   {
     "_idGenero": "4",
     "nomeGenero": "Línguas",
     "link": "/livros-linguas",
-    "decimalGenero": "10",
+    "decimalGenero": "100",
     "livrosGenero": 123
   },
   {
     "_idGenero": "5",
     "nomeGenero": "Ciências Naturais e Matemática",
     "link": "livros-ciencias-naturais-e-matematicas",
-    "decimalGenero": "50",
+    "decimalGenero": "500",
     "livrosGenero": 523
   },
   {
     "_idGenero": "6",
     "nomeGenero": "Tecnologia e Ciências Aplicadas",
     "link": "/livros-tecnologia",
-    "decimalGenero": "30",
+    "decimalGenero": "300",
     "livrosGenero": 325
   },
   {
     "_idGenero": "7",
     "nomeGenero": "Artes",
     "link": "/livros-artes",
-    "decimalGenero": "50",
+    "decimalGenero": "500",
     "livrosGenero": 523
   },
   {
     "_idGenero": "8",
     "nomeGenero": "Literatura e Retórica",
     "link": "/livros-literatura-retorica",
-    "decimalGenero": "60",
+    "decimalGenero": "600",
     "livrosGenero": 655
   },
   {
     "_idGenero": "9",
     "nomeGenero": "Geografia História e Biografia",
     "link": "/livros-geografia-historia-biografia",
-    "decimalGenero": "70",
+    "decimalGenero": "700",
     "livrosGenero": 788
   }
 ]

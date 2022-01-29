@@ -1,11 +1,10 @@
-import { Direito } from './../modelos/direito';
-
 import { Component, OnInit } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { catchError, Observable, of } from 'rxjs';
 import { AppDialogosComponent } from 'src/app/app-compartilhado/app-dialogos/app-dialogos.component';
 
-import {DireitoService } from '../service/direito.service';
+import { DireitoService } from '../service/direito.service';
+import { Direito } from './../modelos/direito';
 
 @Component({
   selector: 'app-class-direito',

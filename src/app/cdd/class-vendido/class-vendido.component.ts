@@ -1,9 +1,10 @@
-import { MatDialog } from '@angular/material/dialog';
-import { VendidosService } from './../service/vendidos.service';
-import { Vendidos } from './../modelos/vendidos';
 import { Component, OnInit } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { catchError, Observable, of } from 'rxjs';
 import { AppDialogosComponent } from 'src/app/app-compartilhado/app-dialogos/app-dialogos.component';
+
+import { Vendidos } from './../modelos/vendidos';
+import { VendidosService } from './../service/vendidos.service';
 
 @Component({
   selector: 'app-class-vendido',
