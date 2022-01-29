@@ -12,13 +12,12 @@ import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreen
 import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
-import { BiblioteconomiaComponent } from './biblioteconomia/componente/biblioteconomia/biblioteconomia.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
 const routes: Routes = [
   {
-    path: '', pathMatch: 'full', redirectTo: 'app-app-cadastro'
+     path: '', pathMatch: 'prefix', redirectTo: 'app-app-cadastro'
   },
   {
     path:'app-app-cadastro', component: AppCadastroComponent
@@ -61,7 +60,7 @@ const routes: Routes = [
   {
     path: 'livros-sagas', component: ClassSagasComponent
   },
-  
+
 ];
 
 @NgModule({
