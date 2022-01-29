@@ -13,7 +13,8 @@ import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { CriticasComponent } from './criticas/componente/criticas.component';
 import { FeedComponent } from './feed/feed.component';
-import { BiblioteconomiaComponent } from './biblioteconomia/componente/biblioteconomia/biblioteconomia.component';
+import { ClassSugestaoComponent } from './cdd/class-sugestao/class-sugestao.component';
+import { ClassVendidoComponent } from './cdd/class-vendido/class-vendido.component';
 import{ PageNotFoundComponent } from'./page-not-found/page-not-found.component'
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -66,11 +67,21 @@ const routes: Routes = [
     path: 'livros-direito', component: ClassDireitoComponent
   },
   {
+    path: 'sugestao', component: ClassSugestaoComponent
+  },
+  {
+    path: 'biblioteconomia',
+    loadChildren: () => import('./biblioteconomia/biblioteconomia.module').then(c => c.BiblioteconomiaModule),
+    ...canActivate(enviarSemLogin)
+  },
+  {
     path: 'livros-sagas', component: ClassSagasComponent
   },
   {
-    path:'**',
-    component: PageNotFoundComponent
+    path: 'livros-vendidos', component: ClassVendidoComponent
+  },
+  {
+    path:'**', component: PageNotFoundComponent
   },
 
 ];
