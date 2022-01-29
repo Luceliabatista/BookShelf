@@ -1,19 +1,21 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
-import { catchError, map, Observable, of, pipe } from 'rxjs';
+import { catchError, Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
 import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
 
-import { Sagas } from './../modelos/sagas';
-import { SagasService } from './../../cdd/service/sagas.service';
+import { Biblioteconomia } from '../../models/biblioteconomia';
+import { BiblioteconomiaService } from '../../service/biblioteconomia.service';
 
 @Component({
-  selector: 'app-class-sagas',
-  templateUrl: './class-sagas.component.html',
-  styleUrls: ['./class-sagas.component.scss']
+  selector: 'app-biblioteconomia',
+  templateUrl: './biblioteconomia.component.html',
+  styleUrls: ['./biblioteconomia.component.scss']
 })
-export class ClassSagasComponent {
-  cards$: Observable<Sagas[]>;
+export class BiblioteconomiaComponent {
+
+  cards$: Observable<Biblioteconomia[]>;
   usuario$= this.autenticacaoFirebaseService.usuarioLogado$;
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
@@ -26,10 +28,10 @@ export class ClassSagasComponent {
 
   constructor(
     private breakpointObserver: BreakpointObserver,
-    private sagasService: SagasService,
+    private biblioService: BiblioteconomiaService,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
-    ) {
-      this.cards$ = sagasService.listagemSagas()
+  ) {
+      this.cards$ = biblioService.listagemBiblio()
       .pipe(
         catchError(error =>{
           return of([])
@@ -37,3 +39,4 @@ export class ClassSagasComponent {
       )
     }
 }
+

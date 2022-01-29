@@ -1,10 +1,11 @@
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { Component } from '@angular/core';
+import { catchError, Observable, of } from 'rxjs';
+import { map } from 'rxjs/operators';
+
+import { Dashboard } from './../modelosInterface/dashboard';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { DashboardService } from './../servicosInterface/dashboard.service';
-import { Dashboard } from './../modelosInterface/dashboard';
-import { Component } from '@angular/core';
-import { map } from 'rxjs/operators';
-import { Breakpoints, BreakpointObserver } from '@angular/cdk/layout';
-import { Observable, catchError, of } from 'rxjs';
 
 @Component({
   selector: 'app-feed',
