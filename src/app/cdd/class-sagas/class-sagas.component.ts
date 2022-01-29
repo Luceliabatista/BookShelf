@@ -1,11 +1,11 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
-import { catchError, map, Observable, of, pipe } from 'rxjs';
+import { catchError, map, Observable, of } from 'rxjs';
 import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
-
-import { Sagas } from './../modelos/sagas';
 import { SagasService } from './../../cdd/service/sagas.service';
+import { Sagas } from './../modelos/sagas';
+
 
 @Component({
   selector: 'app-class-sagas',

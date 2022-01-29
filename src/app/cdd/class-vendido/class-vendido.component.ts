@@ -1,11 +1,12 @@
 import { VendidosM } from './../modelos/vendidosM';
 import { VendidosServiceMundial } from './../service/vendidos-m.service';
 import { MatDialog } from '@angular/material/dialog';
-import { VendidosService } from './../service/vendidos.service';
-import { Vendidos } from './../modelos/vendidos';
 import { Component, OnInit } from '@angular/core';
 import { catchError, Observable, of } from 'rxjs';
 import { AppDialogosComponent } from 'src/app/app-compartilhado/app-dialogos/app-dialogos.component';
+
+import { Vendidos } from './../modelos/vendidos';
+import { VendidosService } from './../service/vendidos.service';
 
 @Component({
   selector: 'app-class-vendido',
@@ -30,7 +31,7 @@ export class ClassVendidoComponent implements OnInit {
         return of([])
       })
     )
-  
+
   this.livrosVendidos$ = vendidosService.listagemVendidos().pipe(
 
     catchError(error =>{

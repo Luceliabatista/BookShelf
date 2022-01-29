@@ -11,10 +11,10 @@ export class BiblioteconomiaService {
 
   private readonly uriAPI='../../../assets/biblioteconomia.json'
 
-  constructor(private cardbiblio: HttpClient) { }
+  constructor(private cardBiblio: HttpClient) { }
 
     listagemBiblio(){
-    return this.cardbiblio.get<Biblioteconomia[]>(this.uriAPI)
+    return this.cardBiblio.get<Biblioteconomia[]>(this.uriAPI)
     .pipe(
       first(),
       delay(500),
