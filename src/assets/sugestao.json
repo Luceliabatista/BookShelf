@@ -1,0 +1,98 @@
+[
+  {
+    "id": "01",
+    "title": "Vigiar e punir: Nascimento da prisão",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Vigiar-punir-Nascimento-Michel-Foucault/dp/8532605087",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/715cug5raAL.jpg",
+    "publishDate": "Editora Vozes; 42º edição (1 janeiro 2014)",
+    "source": "Amazon",
+    "resumo": "É um estudo científico, fartamente documentado, sobre a evolução histórica da legislação penal e respectivos métodos coercitivos e punitivos adotados pelo poder público na repressão da delinqüência. Métodos que vão da violência física até instituições correcionais. Esta edição revista traz também uma nova capa mais moderna e atual.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "02",
+    "title": "Nada easy",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Nada-easy-combinei-inova%C3%A7%C3%A3o-criatividade/dp/8545201818/ref=sr_1_2?keywords=nada+easy&qid=1643394131&s=books&sprefix=nada+eas%2Cstripbooks%2C283&sr=1-2",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://m.media-amazon.com/images/I/51aElurSf-L.jpg",
+    "publishDate": "Gente; 4ª edição (1 agosto 2017)",
+    "source": "Amazon",
+    "resumo": "Sempre desconfie das fórmulas mágicas! Nestas páginas, você conhecerá a realidade de quem tenta fazer com que uma start-up dê certo no Brasil. Tirar uma ideia do papel é uma arte; fazer isso em um cenário hostil como o mercado brasileiro, é quase impossível.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "03",
+    "title": "JavaScript: O Guia Definitivo",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/JavaScript-Guia-Definitivo-David-Flanagan/dp/856583719X/ref=asc_df_856583719X/?tag=googleshopp00-20&linkCode=df0&hvadid=379765802390&hvpos=&hvnetw=g&hvrand=18237048778477842007&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1001533&hvtargid=pla-812161948788&psc=1",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/91z1xY4ppaL.jpg",
+    "publishDate": "Bookman; 6ª edição (29 agosto 2012)",
+    "source": "/amazon",
+    "resumo": "David Flanagan é programador e escritor. Seu site é http://davidflanagan.com. Outros de seus livros publicados pela O’Reilly incluem JavaScript Pocket Reference, The Ruby Programming Language e Java in a Nutshell. ",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "04",
+    "title": "O livro das religiões (reduzido)",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Livro-das-Religi%C3%B5es-V%C3%A1rios-Autores/dp/8525062472/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=23PQ6Q276JMPB&keywords=religi%C3%A3o&qid=1643394976&s=books&sprefix=religi%C3%A3o%2Cstripbooks%2C171&sr=1-1",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/61qL2hdGgyL._SX258_BO1,204,203,200_.jpg",
+    "publishDate": "2019-06-09",
+    "source": "Amazon",
+    "resumo": "O materialismo nunca esteve tão presente na sociedade quanto nos dias atuais. Ainda assim, mais de três quartos da população mundial se reconhece como seguidor de algum tipo de credo religioso. ",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "05",
+    "title": "Introdução às ciências sociais",
+    "link": [
+      {
+        "ref": "https://www.amazon.com.br/Introdu%C3%A7%C3%A3o-ci%C3%AAncias-sociais-Adilson-Rodrigues/dp/8584611061/ref=sr_1_2?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=15HXO0A5HF8X1&keywords=Ci%C3%AAncias+Sociais&qid=1643395100&s=books&sprefix=ci%C3%AAncias+sociais%2Cstripbooks%2C196&sr=1-2",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/51y0SPqJdSL._SX322_BO1,204,203,200_.jpg",
+    "publishDate": "Editora Évora; 1ª edição (14 agosto 2017)",
+    "source": "Amazon",
+    "resumo": "José Eduardo Azevedo é doutor em ciências sociais (ciência política) pela PUC-SP, mestre em ciência política pela UNICAMP e graduado em ciências sociais, pedagogia e administração.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "06",
+    "title": "Matemática fundamental para matemáticos",
+    "link": [
+      {
+        "ref": "https://www.napratica.org.br/livros-de-negocios-influentes/",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://m.media-amazon.com/images/I/41ftgp6z9OL.jpg",
+    "publishDate": "1ª edição (5 junho 2014)",
+    "source": "Amazon",
+    "resumo": "El texto ha sido concebido como material de soporte del curso de Matemática fundamental que ofrece el Departamento de Matemáticas de la Universidad del Valle. También, desde luego, puerde ser usado como texto guía o de referencia en cursos análogos.",
+    "cols": 1,
+    "rows": 2
+  }
+]

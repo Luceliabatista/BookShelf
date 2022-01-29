@@ -1,4 +1,3 @@
-
 import { LayoutModule } from '@angular/cdk/layout';
 import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
@@ -28,9 +27,12 @@ import { AppMaterialModule } from './app-compartilhado/app-material/app-material
 import { AppLoginComponent } from './app-login/app-login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CriticasModule } from './criticas/criticas.module';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
 
 
 @NgModule({
@@ -40,7 +42,10 @@ import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
     FeedComponent,
     AppLoginComponent,
     AppCadastroComponent,
-    
+    PageNotFoundComponent,
+
+
+
   ],
   imports: [
     BrowserModule,
@@ -61,6 +66,7 @@ import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
     MatSelectModule,
     MatRadioModule,
     ReactiveFormsModule,
+    CriticasModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),

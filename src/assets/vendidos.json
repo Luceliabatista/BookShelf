@@ -1,0 +1,13 @@
+[
+    {"_idLivro":"0", "nomeLivro": "Guardiões de quatro patas", "autor":"Patrícia Cândido", "numVendas":4.123},
+    {"_idLivro":"1", "nomeLivro": "Nas pegadas da alemoa", "autor":"Ilko Minev", "numVendas":2.724},
+    {"_idLivro":"2", "nomeLivro": "Mais esperto que o diabo", "autor":"Napoleon Hill", "numVendas":2.397},
+    {"_idLivro":"3", "nomeLivro": "A revolução dos bichos", "autor":"George Orwell", "numVendas":2.347},
+    {"_idLivro":"4", "nomeLivro": "Do mil ao milhão", "autor":"Thiago Nigro", "numVendas":2.164},
+    {"_idLivro":"5", "nomeLivro": "Todos são bem-vindos", "autor":"Alexandra Penfold", "numVendas":2.118},
+    {"_idLivro":"6", "nomeLivro": "Mulheres que correm com os lobos", "autor":"Clarissa Pinkola Estes", "numVendas":1.928},
+    {"_idLivro":"7", "nomeLivro": "Cientista do marketing", "autor":"Dener Lippert", "numVendas":1.615},
+    {"_idLivro":"8", "nomeLivro": "Amor & gelato", "autor":"Jenna Evans Welch", "numVendas":1.517},
+    {"_idLivro":"9", "nomeLivro": "Torto arado", "autor":"Itamar Vieira Junior", "numVendas":1.510},
+    {"_idLivro":"10", "nomeLivro": "A garota do lago", "autor":"Charlie Donlea", "numVendas":1.394}
+]
