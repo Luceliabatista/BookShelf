@@ -1,3 +1,4 @@
+import { ClassSagasComponent } from './class-sagas/class-sagas.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -34,7 +35,11 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
+  },
+  {
+    path: 'livros-sagas', component: ClassSagasComponent
   }
+
 
 ];
 
