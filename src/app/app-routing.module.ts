@@ -13,6 +13,8 @@ import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { CriticasComponent } from './criticas/componente/criticas.component';
 import { FeedComponent } from './feed/feed.component';
+import { BiblioteconomiaComponent } from './biblioteconomia/componente/biblioteconomia/biblioteconomia.component';
+import{ PageNotFoundComponent } from'./page-not-found/page-not-found.component'
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -65,6 +67,10 @@ const routes: Routes = [
   },
   {
     path: 'livros-sagas', component: ClassSagasComponent
+  },
+  {
+    path:'**',
+    component: PageNotFoundComponent
   },
 
 ];
