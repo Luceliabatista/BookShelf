@@ -1,6 +1,3 @@
-import { ClassDireitoComponent } from './class-direito/class-direito.component';
-import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
-import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { MatListModule } from '@angular/material/list';
@@ -8,6 +5,9 @@ import { MatListModule } from '@angular/material/list';
 import { AppMaterialModule } from '../app-compartilhado/app-material/app-material.module';
 import { AppCompartilhadoModule } from './../app-compartilhado/app-compartilhado.module';
 import { CddRoutingModule } from './cdd-routing.module';
+import { ClassDireitoComponent } from './class-direito/class-direito.component';
+import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
+import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';

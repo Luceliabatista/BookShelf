@@ -1,0 +1,80 @@
+[
+  {
+    "titulo": "500 Retratos da Minha Vida",
+    "link": [
+      {
+        "ref": "https://observador.pt/2022/01/24/a-fotografia-e-a-alegria-de-homem-cardoso/",
+        "click": "Clique aqui para ler a crítica completa!"
+      }
+    ],
+    "img": "https://bordalo.observador.pt/v2/q:85/c:2317:1302:nowe:0:638/rs:fill:860/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/01/24143353/solnado.jpeg",
+    "conteudo": "'500 Retratos da Minha Vida' é o livro que resulta de uma viagem intensiva ao arquivo de um dos fotógrafos que retratou mais figuras da sociedade e da cultura portuguesas.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Casas de Férias",
+    "link": [
+      {
+        "ref": "https://observador.pt/2022/01/22/arquitectos-no-pinhal-sem-muros/",
+        "click": "Clique aqui para ler a crítica completa!"
+      }
+    ],
+    "img": "https://bordalo.observador.pt/v2/q:85/c:2454:1376:nowe:0:1800/rs:fill:860/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/01/21163034/casa-ka-1940.jpg",
+    "conteudo": "'Casas de Férias' mostra a história de um bairro que se transformou num inesperado foco de experimentação e que nos dá um retrato de uma cultura e de uma época arquitectónicas de excepção.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "A Promessa",
+    "link": [
+      {
+        "ref": "https://observador.pt/2022/01/22/damon-galgut-uma-maldicao-familiar-e-uma-promessa-por-cumprir-na-africa-do-sul-do-apartheid/",
+        "click": "Clique aqui para ler a crítica completa!"
+      }
+    ],
+    "img": "https://bordalo.observador.pt/v2/q:85/c:4096:2297:nowe:0:515/rs:fill:860/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/01/17105224/GettyImages-1350467460-scaled.jpg",
+    "conteudo": "Em 'A Promessa', vencedor do Booker Prize de 2021, Damon Galgut parte da triste história da família Swart para construir um inteligente e intrincado retrato da África do Sul nos últimos 30 anos.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "365 Dias que Mudaram as Nossas Vidas",
+    "link": [
+      {
+        "ref": "https://observador.pt/2022/01/17/clara-azevedo-fotografia-propaganda/",
+        "click": "Clique aqui para ler a crítica completa!"
+      }
+    ],
+    "img": "https://bordalo.observador.pt/v2/q:85/c:1681:944:nowe:0:170/rs:fill:860/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/01/17213918/destaque-livro-1.jpeg",
+    "conteudo": "Um ano de imagens de uma excelente e talentosa fotógrafa, aqui com o registo de momentos e ambientes em que busca identificar o que o vírus veio trazer às nossas vidas, mas com alguma ambiguidade.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "O Poder do Cão",
+    "link": [
+      {
+        "ref": "https://observador.pt/2022/01/01/o-poder-do-cao-terra-arida-e-intimidade-num-romance-poderoso/",
+        "click": "Clique aqui para ler a crítica completa!"
+      }
+    ],
+    "img": "https://bordalo.observador.pt/v2/q:85/c:1200:674:nowe:0:0/rs:fill:860/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/12/30103316/thomas-savage.jpeg",
+    "conteudo": "A Asa aproveitou o embalo do novo filme de Jane Campion e publicou a obra de Thomas Savage, uma voz poderosa da literatura norte-americana que aponta para o oeste norte-americano.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "titulo": "Porto Atlas - Um livro de fotografia",
+    "link": [
+      {
+        "ref": "https://observador.pt/2022/01/15/porto-passeios-fotograficos/",
+        "click": "Clique aqui para ler a crítica completa!"
+      }
+    ],
+    "img": "https://bordalo.observador.pt/v2/q:85/c:2770:1557:nowe:0:357/rs:fill:860/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/01/14130135/destaque.jpeg",
+    "conteudo": "Porto Atlas reúne 18 passeios fotográficos de Manuel Valente Alves que constituem um olhar sobre a história e o design de um cidade, além de registar o efeito da visita massiva de turistas.",
+    "cols": 1,
+    "rows": 2
+  }
+]

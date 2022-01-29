@@ -1,16 +1,17 @@
-import { ClassTeatroComponent } from './cdd/class-teatro/class-teatro.component';
 import { NgModule } from '@angular/core';
 import { canActivate, redirectUnauthorizedTo } from '@angular/fire/auth-guard';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
-import { ClassReportagemComponent } from './cdd/class-reportagem/class-reportagem.component';
 import { ClassDireitoComponent } from './cdd/class-direito/class-direito.component';
+import { ClassReportagemComponent } from './cdd/class-reportagem/class-reportagem.component';
+import { ClassTeatroComponent } from './cdd/class-teatro/class-teatro.component';
 import { GenArtesComponent } from './cdd/classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './cdd/classEmpreend/empreend-view/empreend-view.component';
 import { GenPsiComponent } from './cdd/classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { FeedComponent } from './feed/feed.component';
+import { CriticasComponent } from './criticas/criticas.component';
 
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -51,10 +52,11 @@ const routes: Routes = [
   },
   {
     path: 'livros-direito', component: ClassDireitoComponent
+  },
+  {
+    path: 'criticas-livros', component: CriticasComponent,
+    ...canActivate(enviarSemLogin)
   }
-
-
-
 ];
 
 @NgModule({
