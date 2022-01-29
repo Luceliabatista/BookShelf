@@ -15,6 +15,7 @@ import { ClassesComponent } from './classes/classes.component';
 import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
 import { ClassSugestaoComponent } from './class-sugestao/class-sugestao.component';
+import { ClassVendidoComponent } from './class-vendido/class-vendido.component';
 
 
 
@@ -33,6 +34,7 @@ import { ClassSugestaoComponent } from './class-sugestao/class-sugestao.componen
     TecViewComponent,
     ClassSugestaoComponent,
     ClassSagasComponent,
+    ClassVendidoComponent,
   ],
     imports: [
 

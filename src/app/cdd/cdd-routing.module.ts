@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
-import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 import { ClassSagasComponent } from './class-sagas/class-sagas.component';
 import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
@@ -10,11 +9,9 @@ import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-vi
 import { ClassesComponent } from './classes/classes.component';
 import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
-<<<<<<< HEAD
 import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 import { ClassSugestaoComponent } from './class-sugestao/class-sugestao.component';
-=======
->>>>>>> d74d8cbf0ea63bd99d401e15ecf1c42f5126daf8
+import { ClassVendidoComponent } from './class-vendido/class-vendido.component';
 
 const routes: Routes = [
   {
@@ -38,10 +35,6 @@ const routes: Routes = [
     component: GenPsiComponent,
   },
   {
-    path: 'livros-reportagem',
-    component: ClassReportagemComponent,
-  },
-  {
     path: 'livros-reportagem', component: ClassReportagemComponent,
   },
   {
@@ -55,7 +48,10 @@ const routes: Routes = [
   },
   {
     path: 'livros-sagas', component: ClassSagasComponent
-  }
+  },
+  {
+    path: 'livros-vendidos', component: ClassVendidoComponent
+  },
 
 
 ];

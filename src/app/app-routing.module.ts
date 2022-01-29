@@ -14,6 +14,7 @@ import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { CriticasComponent } from './criticas/componente/criticas.component';
 import { FeedComponent } from './feed/feed.component';
 import { ClassSugestaoComponent } from './cdd/class-sugestao/class-sugestao.component';
+import { ClassVendidoComponent } from './cdd/class-vendido/class-vendido.component';
 
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -75,6 +76,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-sagas', component: ClassSagasComponent
+  },
+  {
+    path: 'livros-vendidos', component: ClassVendidoComponent
   },
 
 ];
