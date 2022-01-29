@@ -31,6 +31,7 @@ import { AppComponent } from './app.component';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -40,6 +41,7 @@ import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
     FeedComponent,
     AppLoginComponent,
     AppCadastroComponent,
+    PageNotFoundComponent,
     
   ],
   imports: [

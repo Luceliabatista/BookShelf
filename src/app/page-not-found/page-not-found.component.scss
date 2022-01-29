@@ -1,0 +1,15 @@
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  height: calc(100% - 56px);
+
+  .not-found {
+    color: #bd1b27;
+    font-weight: 700;
+    font-size: 96px;
+    margin-bottom: 32px;
+  }
+}
