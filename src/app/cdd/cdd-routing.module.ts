@@ -1,41 +1,54 @@
-import { ClassSagasComponent } from './class-sagas/class-sagas.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
+import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
+import { ClassSagasComponent } from './class-sagas/class-sagas.component';
 import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
 import { ClassesComponent } from './classes/classes.component';
 import { GenPsiComponent } from './classPsi/gen-psi/gen-psi.component';
 import { TecViewComponent } from './classTec/tec.view/tec.view.component';
+<<<<<<< HEAD
 import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
 import { ClassSugestaoComponent } from './class-sugestao/class-sugestao.component';
+=======
+>>>>>>> d74d8cbf0ea63bd99d401e15ecf1c42f5126daf8
 
 const routes: Routes = [
   {
-    path:'', component:ClassesComponent
+    path: '',
+    component: ClassesComponent,
   },
   {
-    path: 'livros-arte', component: GenArtesComponent
+    path: 'livros-arte',
+    component: GenArtesComponent,
   },
   {
-    path: 'livros-empreendedorismo', component: EmpreendViewComponent
+    path: 'livros-empreendedorismo',
+    component: EmpreendViewComponent,
   },
   {
-    path: 'livros-tecnologia', component: TecViewComponent
+    path: 'livros-tecnologia',
+    component: TecViewComponent,
   },
   {
-    path: 'livros-psicologia', component: GenPsiComponent
+    path: 'livros-psicologia',
+    component: GenPsiComponent,
+  },
+  {
+    path: 'livros-reportagem',
+    component: ClassReportagemComponent,
   },
   {
     path: 'livros-reportagem', component: ClassReportagemComponent,
   },
   {
-    path: 'livros-teatro', component: ClassTeatroComponent
+    path: 'livros-teatro', component: ClassTeatroComponent,
   },
   {
-    path: 'livros-direito', component: ClassDireitoComponent
+    path: 'livros-direito', component: ClassDireitoComponent,
   },
   {
     path: 'sugestao', component: ClassSugestaoComponent
@@ -49,6 +62,6 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class CddRoutingModule {}
