@@ -15,7 +15,7 @@ import { CriticasComponent } from './criticas/componente/criticas.component';
 import { FeedComponent } from './feed/feed.component';
 import { ClassSugestaoComponent } from './cdd/class-sugestao/class-sugestao.component';
 import { ClassVendidoComponent } from './cdd/class-vendido/class-vendido.component';
-
+import{ PageNotFoundComponent } from'./page-not-found/page-not-found.component'
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -79,6 +79,9 @@ const routes: Routes = [
   },
   {
     path: 'livros-vendidos', component: ClassVendidoComponent
+  },
+  {
+    path:'**', component: PageNotFoundComponent
   },
 
 ];
