@@ -1,0 +1,95 @@
+[
+  {
+    "id": "1",
+    "title": "Tipografia do Arco do Cego",
+    "link": [
+      {
+        "ref": "https://www.bn.gov.br/explore/colecoes/tipografia-arco-cego",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/tipografia-arco-cego/colecao-1758-tipografia-arco-cego.jpg",
+    "resumo": "Ativa entre 1799 e 1801, em Lisboa, Portugal, a Tipografia do Arco do Cego foi dirigida pelo brasileiro José Mariano da Conceição Veloso (1741-1811), frei franciscano e naturalista, um dos mais importantes botânicos da época.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "2",
+    "title": "Arquivo Arthur Ramos",
+    "link": [
+      {
+        "ref": "https://www.bn.gov.br/explore/colecoes/arquivo-arthur-ramos",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/arquivo-arthur-ramos/colecao-3382-arquivo-arthur-ramos.jpg",
+
+    "resumo": "A tipologia inclui folhetos, recortes de jornais, anotações sobre psiquiatria, etnografia, folclore e ciências sociais, originais de artigos, fotografias, desenhos e uma extensa correspondência do titular e de terceiros.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "3",
+    "title": "Benedicto Ottoni",
+    "link": [
+      {
+        "ref": "https://www.bn.gov.br/explore/colecoes/benedicto-ottoni",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/benedicto-ottoni/colecao-1757-benedicto-ottoni.jpg",
+
+
+    "resumo": "Este conjunto de livros, formado por cerca de 12.600 obras sobre o Brasil Colônia e o Brasil Independente, pertenceu ao colecionador e bibliófilo José Carlos Rodrigues (1844-1923). ",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "4",
+    "title": "Condes de Castelo Melhor",
+    "link": [
+      {
+        "ref": "https://www.bn.gov.br/explore/colecoes/condes-castelo-melhor",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/condes-castelo-melhor/colecao-1753-condes-castelo-melhor.jpg",
+
+
+    "resumo": "A Coleção Condes de Castelo Melhor é composta por diversas cópias de documentos manuscritos, que se associam direta ou indiretamente à história dessa casa nobiliárquica portuguesa em diferentes gerações, e também por escritos do Padre Antônio Vieira.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "5",
+    "title": "Thereza Christina Maria",
+    "link": [
+      {
+        "ref": "https://www.bn.gov.br/explore/colecoes/thereza-christina-maria",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/thereza-christina-maria/colecao-1751-thereza-christina-maria.jpg",
+
+
+    "resumo": "A grandeza da coleção exigiu, na época, a construção de galerias e a reforma de espaços para dar conta do acréscimo que a doação imperial representou para o acervo da instituição.",
+    "cols": 1,
+    "rows": 2
+  },
+  {
+    "id": "6",
+    "title": "Diogo Barbosa Machado",
+    "link": [
+      {
+        "ref": "https://www.bn.gov.br/explore/colecoes/diogo-barbosa-machado",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.bn.gov.br/sites/default/files/imagens/colecao/diogo-barbosa-machado/colecao-1750-diogo-barbosa-machado.jpg",
+
+
+    "resumo": "Pertencente ao acervo da Real Biblioteca, a antiga livraria de Diogo Barbosa Machado chegou ao Brasil em 1810, logo depois da corte portuguesa. ",
+    "cols": 1,
+    "rows": 2
+  }
+]

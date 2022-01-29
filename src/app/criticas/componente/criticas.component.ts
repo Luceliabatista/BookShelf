@@ -1,16 +1,16 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
 import { catchError, map, Observable, of } from 'rxjs';
+import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
-import { Criticas } from './../modelosInterface/criticas';
-import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
-import { CriticasService } from './../servicosInterface/criticas.service';
+import { Criticas } from '../models/criticas';
+import { CriticasService } from '../service/criticas.service';
 
 
 @Component({
   selector: 'app-criticas',
-  templateUrl: './criticas.component.html',
-  styleUrls: ['./criticas.component.scss']
+  templateUrl: '../componente/criticas.component.html',
+  styleUrls: ['../componente/criticas.component.scss']
 })
 export class CriticasComponent {
   cards$: Observable<Criticas[]>;

@@ -28,7 +28,7 @@ import { AppMaterialModule } from './app-compartilhado/app-material/app-material
 import { AppLoginComponent } from './app-login/app-login.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CriticasComponent } from './criticas/criticas.component';
+import { CriticasModule } from './criticas/criticas.module';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 
@@ -41,7 +41,7 @@ import { NavegacaoComponent } from './navegacao/navegacao.component';
     FeedComponent,
     AppLoginComponent,
     AppCadastroComponent,
-    CriticasComponent,
+
 
   ],
   imports: [
@@ -63,6 +63,7 @@ import { NavegacaoComponent } from './navegacao/navegacao.component';
     MatSelectModule,
     MatRadioModule,
     ReactiveFormsModule,
+    CriticasModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),

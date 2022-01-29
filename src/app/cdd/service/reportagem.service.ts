@@ -1,7 +1,9 @@
-import { first, delay, tap } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import {Reportagem} from '../modelos/reportagem'
+import { delay, first, tap } from 'rxjs';
+
+import { Reportagem } from '../modelos/reportagem';
+
 @Injectable({
   providedIn: 'root'
 })

@@ -1,19 +1,19 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
-import { catchError, Observable, of } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { catchError, map, Observable, of, pipe } from 'rxjs';
+import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
-import { Dashboard } from './../modelosInterface/dashboard';
-import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
-import { DashboardService } from './../servicosInterface/dashboard.service';
+
+import { Sagas } from './../modelos/sagas';
+import { SagasService } from './../../cdd/service/sagas.service';
 
 @Component({
-  selector: 'app-feed',
-  templateUrl: './feed.component.html',
-  styleUrls: ['./feed.component.scss']
+  selector: 'app-class-sagas',
+  templateUrl: './class-sagas.component.html',
+  styleUrls: ['./class-sagas.component.scss']
 })
-export class FeedComponent {
-  cards$: Observable<Dashboard[]>;
+export class ClassSagasComponent {
+  cards$: Observable<Sagas[]>;
   usuario$= this.autenticacaoFirebaseService.usuarioLogado$;
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
@@ -26,10 +26,10 @@ export class FeedComponent {
 
   constructor(
     private breakpointObserver: BreakpointObserver,
-    private dashboardService: DashboardService,
+    private sagasService: SagasService,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
     ) {
-      this.cards$ = dashboardService.listagemCards()
+      this.cards$ = sagasService.listagemSagas()
       .pipe(
         catchError(error =>{
           return of([])

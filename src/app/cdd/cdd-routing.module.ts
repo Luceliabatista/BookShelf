@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { ClassDireitoComponent } from './class-direito/class-direito.component';
 import { ClassReportagemComponent } from './class-reportagem/class-reportagem.component';
+import { ClassSagasComponent } from './class-sagas/class-sagas.component';
 import { ClassTeatroComponent } from './class-teatro/class-teatro.component';
 import { GenArtesComponent } from './classArtes/gen-artes/gen-artes.component';
 import { EmpreendViewComponent } from './classEmpreend/empreend-view/empreend-view.component';
@@ -36,13 +37,19 @@ const routes: Routes = [
     component: ClassReportagemComponent,
   },
   {
-    path: 'livros-teatro',
-    component: ClassTeatroComponent,
+    path: 'livros-reportagem', component: ClassReportagemComponent,
   },
   {
-    path: 'livros-direito',
-    component: ClassDireitoComponent,
+    path: 'livros-teatro', component: ClassTeatroComponent,
   },
+  {
+    path: 'livros-direito', component: ClassDireitoComponent,
+  },
+  {
+    path: 'livros-sagas', component: ClassSagasComponent
+  }
+
+
 ];
 
 @NgModule({

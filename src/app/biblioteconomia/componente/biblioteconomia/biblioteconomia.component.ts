@@ -2,18 +2,20 @@ import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import { Component } from '@angular/core';
 import { catchError, Observable, of } from 'rxjs';
 import { map } from 'rxjs/operators';
+import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
-import { Dashboard } from './../modelosInterface/dashboard';
-import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
-import { DashboardService } from './../servicosInterface/dashboard.service';
+
+import { Biblioteconomia } from '../../models/biblioteconomia';
+import { BiblioteconomiaService } from '../../service/biblioteconomia.service';
 
 @Component({
-  selector: 'app-feed',
-  templateUrl: './feed.component.html',
-  styleUrls: ['./feed.component.scss']
+  selector: 'app-biblioteconomia',
+  templateUrl: './biblioteconomia.component.html',
+  styleUrls: ['./biblioteconomia.component.scss']
 })
-export class FeedComponent {
-  cards$: Observable<Dashboard[]>;
+export class BiblioteconomiaComponent {
+
+  cards$: Observable<Biblioteconomia[]>;
   usuario$= this.autenticacaoFirebaseService.usuarioLogado$;
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
@@ -26,10 +28,10 @@ export class FeedComponent {
 
   constructor(
     private breakpointObserver: BreakpointObserver,
-    private dashboardService: DashboardService,
+    private biblioService: BiblioteconomiaService,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
-    ) {
-      this.cards$ = dashboardService.listagemCards()
+  ) {
+      this.cards$ = biblioService.listagemBiblio()
       .pipe(
         catchError(error =>{
           return of([])
@@ -37,3 +39,4 @@ export class FeedComponent {
       )
     }
 }
+
