@@ -7,7 +7,7 @@
   {"linkMenu": "/biblioteconomia", "labelMenu":"Biblioteconomia", "hab": true},
   {"linkMenu": "/livros-empreendedorismo", "labelMenu":"Empreendedorismo", "hab": true},
   {"linkMenu": "/livros-mes", "labelMenu":"Especial do Mês", "hab": true},
-  {"linkMenu": "/ventibulares", "labelMenu":"Vestibular 2022", "hab": true},
+  {"linkMenu": "/vestibulares", "labelMenu":"Vestibular 2022", "hab": true},
   {"linkMenu": "/livros-vendidos", "labelMenu":"Mais Vendidos", "hab": true},
   {"linkMenu": "/clube", "labelMenu":"Pagina Usuário", "hab": false},
   {"linkMenu": "/leitura", "labelMenu":"Clubes de Leitura", "hab": false},
