@@ -43,10 +43,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     AppLoginComponent,
     AppCadastroComponent,
     PageNotFoundComponent,
-    AppLoginComponent
-
-
-
+    AppLoginComponent,
   ],
   imports: [
     BrowserModule,
