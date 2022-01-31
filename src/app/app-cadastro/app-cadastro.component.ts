@@ -4,7 +4,6 @@ import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
 
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
-
 export function passwordMatchValidator(): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
     const senha = control.get('senha')?.value;
@@ -18,7 +17,6 @@ export function passwordMatchValidator(): ValidatorFn {
     return null;
   }
 }
-
 @Component({
   selector: 'app-app-cadastro',
   templateUrl: './app-cadastro.component.html',
@@ -73,7 +71,6 @@ export class AppCadastroComponent implements OnInit {
         this.resetarCamposCadastro();
       });
   }
-
   // #51 - Rotina para limpar campos de cadastro [10 pts]
   resetarCamposCadastro() {
     this.formularioCadastro.reset();
