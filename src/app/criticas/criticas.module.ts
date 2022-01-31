@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatIconModule } from '@angular/material/icon';
@@ -10,11 +11,8 @@ import { AppMaterialModule } from '../app-compartilhado/app-material/app-materia
 import { CriticasComponent } from './componente/criticas.component';
 import { CriticasRoutingModule } from './criticas-routing.module';
 
-
 @NgModule({
-  declarations: [
-    CriticasComponent
-  ],
+  declarations: [CriticasComponent],
   imports: [
     CommonModule,
     CriticasRoutingModule,
@@ -23,7 +21,8 @@ import { CriticasRoutingModule } from './criticas-routing.module';
     MatGridListModule,
     MatListModule,
     MatCardModule,
-    MatIconModule
-  ]
+    MatIconModule,
+    MatButtonModule,
+  ],
 })
-export class CriticasModule { }
+export class CriticasModule {}
