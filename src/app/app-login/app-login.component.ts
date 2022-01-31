@@ -1,21 +1,21 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, Input, Output } from '@angular/core';
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Router } from '@angular/router';
-import { HotToastService } from '@ngneat/hot-toast';
+import { HotToastService } from '@ngneat/hot-toast';;
 
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
-
 @Component({
   selector: 'app-app-login',
   templateUrl: './app-login.component.html',
   styleUrls: ['./app-login.component.scss']
 })
 export class AppLoginComponent {
-  formularioLogin = this.loginBuilder.group({
+  public formularioLogin = this.loginBuilder.group({
     email: new FormControl('',[Validators.required, Validators.email]),
     senha: new FormControl('', Validators.required)
   });
+
 
   hasUnitNumber=false;
 
@@ -53,6 +53,12 @@ export class AppLoginComponent {
         this.resetarCamposLogin();
       })
   }
+  //oemail =  loginUsuario.email
+ @Input() public passarEmail(){
+    return this.email
+  }
+  @Input() public oemail = this.email
+
 
   // #52 - Rotina para limpar campos após o login [10 pts]
   resetarCamposLogin() {

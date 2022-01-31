@@ -4,7 +4,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { ClassDireitoComponent } from './cdd/class-direito/class-direito.component';
-import { ClassReportagemComponent } from './cdd/class-reportagem/class-reportagem.component';
+import { ClassReportagemComponent } from './cdd/class-especialmes/class-reportagem.component';
 import { ClassSagasComponent } from './cdd/class-sagas/class-sagas.component';
 import { ClassSugestaoComponent } from './cdd/class-sugestao/class-sugestao.component';
 import { ClassTeatroComponent } from './cdd/class-teatro/class-teatro.component';
@@ -58,7 +58,7 @@ const routes: Routes = [
     path: 'livros-psicologia', component: GenPsiComponent,   ...canActivate(enviarSemLogin)
   },
   {
-    path: 'livros-reportagem', component: ClassReportagemComponent
+    path: 'livros-mes', component: ClassReportagemComponent
   },
   {
     path: 'livros-teatro', component: ClassTeatroComponent

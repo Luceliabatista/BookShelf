@@ -17,6 +17,7 @@ import { NavegacaoService } from './../servicosInterface/navegacao.service';
   styleUrls: ['./navegacao.component.scss']
 })
 export class NavegacaoComponent {
+  
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
   //Itens co menu principal.
   logoMenu='../../assets/imagens/logoBS4.png';
@@ -37,7 +38,7 @@ export class NavegacaoComponent {
     private rotas: Router,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService,
     private navegadorService: NavegacaoService,
-    private toast: HotToastService
+    private toast: HotToastService,
     ) {
       this.itensMenu$ = navegadorService.listagemMenu()
       .pipe(

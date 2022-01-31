@@ -4,7 +4,7 @@ import { catchError, map, Observable, of } from 'rxjs';
 import { AutenticacaoFirebaseService } from 'src/app/servicosInterface/autenticacao-firebase.service';
 
 import { Reportagem } from '../modelos/reportagem';
-import { ReportagemService } from './../../../app/cdd/service/reportagem.service';
+import { ReportagemService } from '../service/reportagem.service';
 
 @Component({
   selector: 'app-class-reportagem',
