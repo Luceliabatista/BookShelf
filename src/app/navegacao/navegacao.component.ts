@@ -1,5 +1,5 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component, Input } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
@@ -20,6 +20,7 @@ import { getAuth } from "firebase/auth";
 export class NavegacaoComponent {
   showFiller = false
  // email = this.autenticacaoFirebaseService.email()
+
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
   //Itens co menu principal.
   logoMenu='../../assets/imagens/logoBS4.png';
@@ -87,4 +88,15 @@ return this.pegarEmail
     a = this.pegarEmail()
 
 
+    //melhorias tollbar
+    larguraInterna!: number;
+    ngOnInit(): void {
+     this.larguraInterna = window.innerWidth;
+
+    }
+
+    @HostListener('window:resize', ['$event'])
+    onResize(event:number) {
+    this.larguraInterna = window.innerWidth;
+    }
 }
