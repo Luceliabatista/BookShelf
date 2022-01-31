@@ -1,5 +1,5 @@
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
@@ -17,7 +17,7 @@ import { NavegacaoService } from './../servicosInterface/navegacao.service';
   styleUrls: ['./navegacao.component.scss']
 })
 export class NavegacaoComponent {
-  
+
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
   //Itens co menu principal.
   logoMenu='../../assets/imagens/logoBS4.png';
@@ -64,5 +64,16 @@ export class NavegacaoComponent {
       ).subscribe(() =>{
         this.rotas.navigate([''])
       })
+    }
+    //melhorias tollbar
+    larguraInterna!: number;
+    ngOnInit(): void {
+     this.larguraInterna = window.innerWidth;
+
+    }
+
+    @HostListener('window:resize', ['$event'])
+    onResize(event:number) {
+    this.larguraInterna = window.innerWidth;
     }
 }
