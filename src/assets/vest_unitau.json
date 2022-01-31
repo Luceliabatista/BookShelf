@@ -1,0 +1,61 @@
+[
+  {
+    "id": "0",
+    "title": "Coração, cabeça e estômago",
+    "link": [
+      {
+        "ref": "http://www.dominiopublico.gov.br/download/texto/bv000063.pdf",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://imagens.lelivros.love/2016/04/Baixar-Livro-Coracao-Cabeca-e-Estomago-Camilo-Castelo-Branco-em-PDF-ePub-e-Mobi-ou-ler-online-370x524.jpg",
+    "resumo": "Escrito por: Camilo Castelo Branco",
+    "cols": 1,
+    "rows": 2
+  },
+
+  {
+    "id": "1",
+    "title": "Triste Fim de Policarpo Quaresma",
+    "link": [
+      {
+        "ref": "http://www.dominiopublico.gov.br/download/texto/bv000159.pdf",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://www.lpm.com.br/livros/imagens/policarpo_quaresma_img_capa_newtec_9786556661759_hd.jpg",
+    "resumo": "Escrito por: Lima Barreto",
+    "cols": 1,
+    "rows": 2
+  },
+
+  {
+    "id": "2",
+    "title": "Memorial de Aires",
+    "link": [
+      {
+        "ref": "http://www.dominiopublico.gov.br/pesquisa/DetalheObraForm.do?select_action&co_obra=2037",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://ler-livros.com/wp-content/uploads/capas/memorial-de-aires-ilustrado-notas-indice-ativo-com-biografia-criticas-pdf-B00F2ONKAQ.jpg",
+    "resumo": "Escrito por: Machado de Assis",
+    "cols": 1,
+    "rows": 2
+  },
+
+  {
+    "id": "3",
+    "title": "Primeiras estórias",
+    "link": [
+      {
+        "ref": "https://www.aedi.ufpa.br/parfor/letras/images/documentos/atividadesadistancia_jan2016/Francisco_ewerton/primeiras_estorias.pdf",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://imagens.lelivros.love/2016/05/Baixar-Livro-Primeiras-Estorias-Joao-Guimaraes-Rosa-em-PDF-ePub-e-Mobi-ou-ler-online.jpg",
+    "resumo": "Escrito por: João Guimarães Rosa",
+    "cols": 1,
+    "rows": 2
+  }
+]

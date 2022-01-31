@@ -13,7 +13,7 @@ import { VendidosService } from './../service/vendidos.service';
   templateUrl: './class-vendido.component.html',
   styleUrls: ['./class-vendido.component.scss']
 })
-export class ClassVendidoComponent implements OnInit {
+export class ClassVendidoComponent {
   livrosVendidos$: Observable<Vendidos[]>;
   livrosVendidosM$: Observable<VendidosM[]>;
   visaoColunas=['_idLivro','nomeLivro','autor', 'numVendas'];
@@ -41,17 +41,10 @@ export class ClassVendidoComponent implements OnInit {
   )
 }
 
-
-
   abrirDialogoErro(erroMsg: string){
     this.dialogo.open(AppDialogosComponent,{
       data: erroMsg
     })
-  }
-
-
-
-  ngOnInit(): void {
   }
 
 }
