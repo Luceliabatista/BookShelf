@@ -1,0 +1,61 @@
+[
+  {
+    "id": "0",
+    "title": "Numa e a ninfa",
+    "link": [
+      {
+        "ref": "http://www.precog.com.br/bc-texto/obras/ua000160.pdf",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://images-na.ssl-images-amazon.com/images/I/71idEtx8RGL.jpg",
+    "resumo": "Escrito por: Lima Barreto",
+    "cols": 1,
+    "rows": 2
+  },
+
+  {
+    "id": "1",
+    "title": "O vendedor de passados",
+    "link": [
+      {
+        "ref": "https://jaimemoniz.com/images/docs/recursos/Agualusa.pdf",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://imagens.lelivros.love/2013/07/Download-livro-O-Vendedor-de-Passados-Jose-Eduardo-Agualusa-em-Epub-mobi-e-PDF1.jpg",
+    "resumo": "Escrito por: Jose Eduardo Agualusa",
+    "cols": 1,
+    "rows": 2
+  },
+
+  {
+    "id": "2",
+    "title": "Contos novos",
+    "link": [
+      {
+        "ref": "https://www.literaturabrasileira.ufsc.br/documentos/?action=download&id=36858",
+        "texto": "Escrito por: Mário de Andrade"
+      }
+    ],
+    "img": "http://3.bp.blogspot.com/-OlXGk2xTeeo/VnWh3s7WPWI/AAAAAAAAJYg/U04oWeSAWWs/s1600/c-mario-novos-300.jpg",
+    "resumo": "",
+    "cols": 1,
+    "rows": 2
+  },
+
+  {
+    "id": "3",
+    "title": "Casa de pensão",
+    "link": [
+      {
+        "ref": "http://www.dominiopublico.gov.br/download/texto/bv000014.pdf",
+        "texto": "Clique aqui"
+      }
+    ],
+    "img": "https://livrariadavila.vteximg.com.br/arquivos/ids/1479082-642-930/9788572329774.jpg?v=637771720344430000",
+    "resumo": "Escrito por: Aluísio Azevedo",
+    "cols": 1,
+    "rows": 2
+  }
+]
