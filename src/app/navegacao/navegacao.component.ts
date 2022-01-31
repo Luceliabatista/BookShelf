@@ -10,6 +10,7 @@ import { AppLoginComponent } from './../app-login/app-login.component';
 import { MenuNavegador } from './../modelosInterface/menuNavegador';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { NavegacaoService } from './../servicosInterface/navegacao.service';
+import { getAuth } from "firebase/auth";
 
 @Component({
   selector: 'app-navegacao',
@@ -17,6 +18,8 @@ import { NavegacaoService } from './../servicosInterface/navegacao.service';
   styleUrls: ['./navegacao.component.scss']
 })
 export class NavegacaoComponent {
+  showFiller = false
+ // email = this.autenticacaoFirebaseService.email()
 
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
   //Itens co menu principal.
@@ -65,6 +68,26 @@ export class NavegacaoComponent {
         this.rotas.navigate([''])
       })
     }
+
+  public  pegarEmail(){
+      const auth = getAuth();
+      const user = auth.currentUser;
+      if (user !== null) {
+
+        const displayName = user.displayName;
+       // const email = user.email;
+        //console.log(email)
+        const photoURL = user.photoURL;
+        const emailVerified = user.emailVerified;
+        const uid = user.uid;
+        const email = (''+ user.email);
+
+      }
+return this.pegarEmail
+    }
+    a = this.pegarEmail()
+
+
     //melhorias tollbar
     larguraInterna!: number;
     ngOnInit(): void {
