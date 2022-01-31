@@ -1,9 +1,14 @@
-.grid-container, .mat-card-avatar {
+.grid-container,
+.mat-card-avatar {
   margin: 20px;
   max-width: 1080px;
   max-height: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.mat-h1 {
+  text-align: center;
 }
 
 .criticas-card {
@@ -14,28 +19,24 @@
   bottom: 15px;
 }
 
-.more-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
-}
-
-.criticas-card-content {
-  text-align: center;
-}
-
 img {
   max-height: 300px;
   min-height: 300px;
+  border-radius: 10px;
 }
 
-.mat-card-header {
-    display: flex;
-    flex-direction:column-reverse;
-    max-height: 200px;
+.titulo {
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.mat-card-avatar {
-  height: 0;
+.criticas-card-content {
+  text-indent: 1.5em;
+  font-size: 17px;
+  padding-bottom: 20px;
 }
 
+.clickSaibaMais {
+  text-align: end;
+  padding-top: 15px;
+}
