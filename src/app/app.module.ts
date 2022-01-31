@@ -44,10 +44,7 @@ import { VestibularesModule } from './vestibulares/vestibulares.module';
     AppLoginComponent,
     AppCadastroComponent,
     PageNotFoundComponent,
-    AppLoginComponent
-
-
-
+    AppLoginComponent,
   ],
   imports: [
     BrowserModule,
