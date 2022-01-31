@@ -16,6 +16,7 @@ import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { CriticasComponent } from './criticas/componente/criticas.component';
 import { FeedComponent } from './feed/feed.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { VestibularComponent } from './vestibulares/componente/vestibular/vestibular.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
 
@@ -45,6 +46,12 @@ const routes: Routes = [
     loadChildren: () => import('./criticas/criticas-routing.module').then(c => c.CriticasRoutingModule),
     ...canActivate(enviarSemLogin)
   },
+    {
+    path: 'vestibulares', component: VestibularComponent,
+    loadChildren: () => import('./vestibulares/vestibulares.module').then(c => c.VestibularesModule),
+    ...canActivate(enviarSemLogin)
+  },
+
   {
     path: 'livros-artes', component: GenArtesComponent,
   },
