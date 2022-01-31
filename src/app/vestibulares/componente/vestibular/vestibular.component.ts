@@ -13,41 +13,45 @@ import { VestibularService } from '../../servico/vestibular.service';
 })
 export class VestibularComponent {
 
-  cards$: Observable<Vestibular[]>;
-  usuario$= this.autenticacaoFirebaseService.usuarioLogado$;
+  cardsIta$: Observable<Vestibular[]>;
+  cardsPuc$: Observable<Vestibular[]>;
+  cardsUnicamp$: Observable<Vestibular[]>;
+  cardsUnitau$: Observable<Vestibular[]>;
+
+  usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
   cards = this.breakpointObserver.observe(Breakpoints.Handset).pipe(
     map(({ matches }) => {
       if (matches) {
-        return this.cards$;
+        return this.cardsIta$, this.cardsPuc$, this.cardsUnicamp$, this.cardsUnitau$;
       }
-      return this.cards$;
+      return this.cardsIta$, this.cardsPuc$, this.cardsUnicamp$, this.cardsUnitau$;
     })
   );
 
   constructor(
     private breakpointObserver: BreakpointObserver,
-    private biblioService: VestibularService,
+    private vestibularService: VestibularService,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService
   ) {
-      this.cards$ = biblioService.listaIta()
+      this.cardsIta$ = vestibularService.listaIta()
       .pipe(
         catchError(error =>{
           return of([])
         })
       ),
-    this.cards$ = biblioService.listaPuc()
+    this.cardsPuc$ = vestibularService.listaPuc()
       .pipe(
         catchError(error =>{
           return of([])
         })
       ),
-    this.cards$ = biblioService.listaUnicamp()
+    this.cardsUnicamp$ = vestibularService.listaUnicamp()
       .pipe(
         catchError(error =>{
           return of([])
         })
     ),
-    this.cards$ = biblioService.listaUnitau()
+    this.cardsUnitau$ = vestibularService.listaUnitau()
       .pipe(
         catchError(error =>{
           return of([])

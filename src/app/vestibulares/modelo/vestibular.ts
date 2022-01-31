@@ -1,4 +1,5 @@
 export interface Vestibular {
+  univers: string;
   id: string;
   title: string;
   link: [{ ref: string, texto: string }];

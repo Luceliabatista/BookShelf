@@ -1,17 +1,21 @@
-.grid-container, .mat-card-avatar {
-  margin: 20px;
-  max-width: 1080px;
+.grid-container,
+.mat-card-avatar {
+  max-width: 1380px;
   max-height: 500px;
   margin-left: auto;
   margin-right: auto;
 }
 
+.mat-h1 {
+    margin-top:55px;
+}
 .dashboard-card {
   position: absolute;
   top: 15px;
   left: 15px;
-  right: 5px;
+  right: 15px;
   bottom: 15px;
+  margin: 10px;
 }
 
 .more-button {
@@ -31,10 +35,18 @@ img {
   min-width: 50px;
 }
 
+h2 {
+  margin-top: 55px;
+  font-size:x-large;
+}
+
+h1 {
+ font-size:xx-large;
+}
 .mat-card-header {
-    display: flex;
-    flex-direction:column-reverse;
-    max-height: 200px;
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 200px;
 }
 
 .mat-card-avatar {

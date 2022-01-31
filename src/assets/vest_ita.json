@@ -1,4 +1,4 @@
-[
+[ {"univers":" Universidade ITA"},
   {
     "id": "0",
     "title": "Numa e a ninfa",
@@ -35,11 +35,11 @@
     "link": [
       {
         "ref": "https://www.literaturabrasileira.ufsc.br/documentos/?action=download&id=36858",
-        "texto": "Escrito por: Mário de Andrade"
+        "texto": "Clique aqui"
       }
     ],
     "img": "http://3.bp.blogspot.com/-OlXGk2xTeeo/VnWh3s7WPWI/AAAAAAAAJYg/U04oWeSAWWs/s1600/c-mario-novos-300.jpg",
-    "resumo": "",
+    "resumo": "Escrito por: Mário de Andrade",
     "cols": 1,
     "rows": 2
   },
