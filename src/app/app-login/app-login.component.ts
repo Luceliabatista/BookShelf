@@ -68,4 +68,9 @@ export class AppLoginComponent {
       senha: new FormControl(null),
     });
   }
+
+  logincomGoogle(){
+   this.autenticacaoFirebaseService.loginGoogle();
+  }
+
 }
