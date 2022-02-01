@@ -9,6 +9,7 @@
   {"linkMenu": "/livros-mes", "labelMenu":"Especial do Mês", "hab": true},
   {"linkMenu": "/vestibulares", "labelMenu":"Vestibular 2022", "hab": true},
   {"linkMenu": "/livros-vendidos", "labelMenu":"Mais Vendidos", "hab": true},
+  {"linkMenu": "/user-profile", "labelMenu":"Informações de Usuário", "hab": true},
   {"linkMenu": "/clube", "labelMenu":"Pagina Usuário", "hab": false},
   {"linkMenu": "/leitura", "labelMenu":"Clubes de Leitura", "hab": false},
   {"linkMenu": "/estante", "labelMenu":"Estante Particular", "hab": false}

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
+
 
 @Component({
   selector: 'app-userprofile',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserprofileComponent implements OnInit {
 
-  constructor() { }
+  usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
+
+  constructor(private autenticacaoFirebaseService:  AutenticacaoFirebaseService ) { }
 
   ngOnInit(): void {
   }
