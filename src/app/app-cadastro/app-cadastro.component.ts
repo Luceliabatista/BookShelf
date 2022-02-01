@@ -23,6 +23,9 @@ export function passwordMatchValidator(): ValidatorFn {
   styleUrls: ['./app-cadastro.component.scss']
 })
 export class AppCadastroComponent implements OnInit {
+  isLinear = false;
+  firstFormGroup!: FormGroup;
+  secondFormGroup!: FormGroup;
   formularioCadastro = this.loginBuilder.group({
     nome: new FormControl('', Validators.required),
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -71,10 +74,9 @@ export class AppCadastroComponent implements OnInit {
         this.resetarCamposCadastro();
       });
   }
-  // #51 - Rotina para limpar campos de cadastro [10 pts]
   resetarCamposCadastro() {
     this.formularioCadastro.reset();
-    console.log('Limpou campos cadastro');
+    alert('Reset dos campos realizado com sucesso');
     this.formularioCadastro = new FormGroup({
       nome: new FormControl(null),
       email: new FormControl(null),
@@ -85,5 +87,6 @@ export class AppCadastroComponent implements OnInit {
   }
 
   ngOnInit(): void {
+
   }
 }

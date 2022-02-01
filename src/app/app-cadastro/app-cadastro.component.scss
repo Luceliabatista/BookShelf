@@ -7,6 +7,11 @@ mat-grid-list{
   margin-right: auto;
   max-width: 920px;
 }
-mat-form-field{
+mat-form-field, mat-step{
   margin: 1%;
+}
+
+.next{
+    display: block;
+    margin: 0 -16px -16px -16px;
 }
