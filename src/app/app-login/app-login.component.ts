@@ -63,7 +63,6 @@ export class AppLoginComponent {
   // #52 - Rotina para limpar campos após o login [10 pts]
   resetarCamposLogin() {
     this.formularioLogin.reset();
-    console.log('Limpou campos');
     this.formularioLogin = new FormGroup({
       email: new FormControl(null),
       senha: new FormControl(null),

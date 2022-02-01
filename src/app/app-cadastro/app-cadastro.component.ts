@@ -1,9 +1,20 @@
+import { ThisReceiver } from '@angular/compiler';
 import { Component, OnInit } from '@angular/core';
-import { AbstractControl, FormBuilder, FormControl, FormGroup, ValidationErrors, ValidatorFn, Validators } from '@angular/forms';
+import {
+  AbstractControl,
+  FormBuilder,
+  FormControl,
+  FormGroup,
+  ValidationErrors,
+  ValidatorFn,
+  Validators,
+} from '@angular/forms';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';
 
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
+
+
 export function passwordMatchValidator(): ValidatorFn {
   return (control: AbstractControl): ValidationErrors | null => {
     const senha = control.get('senha')?.value;
@@ -23,9 +34,8 @@ export function passwordMatchValidator(): ValidatorFn {
   styleUrls: ['./app-cadastro.component.scss']
 })
 export class AppCadastroComponent implements OnInit {
+  hide = true;
   isLinear = false;
-  firstFormGroup!: FormGroup;
-  secondFormGroup!: FormGroup;
   formularioCadastro = this.loginBuilder.group({
     nome: new FormControl('', Validators.required),
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -46,14 +56,17 @@ export class AppCadastroComponent implements OnInit {
 
   get email() {
     return this.formularioCadastro.get('email')
+
   }
 
   get senha() {
     return this.formularioCadastro.get('senha')
+
   }
 
   get confirmaSenha() {
     return this.formularioCadastro.get('confirmaSenha')
+
   }
 
   enviaCadastro() {
@@ -76,7 +89,6 @@ export class AppCadastroComponent implements OnInit {
   }
   resetarCamposCadastro() {
     this.formularioCadastro.reset();
-    alert('Reset dos campos realizado com sucesso');
     this.formularioCadastro = new FormGroup({
       nome: new FormControl(null),
       email: new FormControl(null),
@@ -84,7 +96,31 @@ export class AppCadastroComponent implements OnInit {
       confirmaSenha: new FormControl(null),
     })
 
+
   }
+
+  nextNome() {
+    if (this.nome?.value == '') {
+      var validNome = false
+      return;
+    }
+;
+
+  }
+  nextEmail() {
+    if (this.email?.value == '') {
+      var validEmail = false
+      return;
+    }
+  }
+
+    nextSenha() {
+    if ((this.senha?.value || this.confirmaSenha) =='') {
+      var validSenha = false
+      return;
+      }
+  }
+
 
   ngOnInit(): void {
 

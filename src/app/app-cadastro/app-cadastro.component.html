@@ -11,23 +11,28 @@
     />
     <form [formGroup]="formularioCadastro" (ngSubmit)="enviaCadastro()">
       <mat-horizontal-stepper>
-        <mat-step label="Nome" >
+        <mat-step label="Nome">
           <mat-form-field>
             <input
               matInput
               placeholder="Entre com seu nome"
               formControlName="nome"
             />
-            <mat-error *ngIf="nome?.errors?.['required']"
+            <mat-error *ngIf="nome?.errors?.['required'] "
               >Será necessário seu nome.</mat-error
             >
           </mat-form-field>
           <div>
-          <button mat-button matStepperNext>Next</button>
+            <button
+              [disabled]="this.nome?.value == ''"
+              mat-button
+              matStepperNext
+            >
+              Próximo
+            </button>
           </div>
-
         </mat-step>
-        <mat-step label="E-mail">
+        <mat-step label="E-mail" >
           <mat-form-field>
             <input
               matInput
@@ -42,7 +47,13 @@
             >
           </mat-form-field>
           <div>
-          <button mat-button matStepperNext>Next</button>
+            <button
+              [disabled]="this.email?.value == ''"
+              mat-button
+              matStepperNext
+            >
+              Próximo
+            </button>
           </div>
         </mat-step>
         <mat-step label="Senha">
@@ -52,6 +63,7 @@
               placeholder="Entre com senha"
               formControlName="senha"
               type="password"
+              [type]="hide ? 'password' : 'text'"
             />
             <mat-error *ngIf="senha?.errors?.['required']"
               >Esqueceu a senha</mat-error
@@ -63,6 +75,7 @@
               placeholder="Confirme a senha anterior"
               formControlName="confirmaSenha"
               type="password"
+              [type]="hide ? 'password' : 'text'"
             />
             <mat-error *ngIf="senha?.errors?.['required']"
               >Entre com a confirmação</mat-error
@@ -71,15 +84,31 @@
               >Entre com a confirmação</mat-error
             >
           </mat-form-field>
+          <button
+            mat-icon-button
+            matSuffix
+            (click)="hide = !hide"
+            [attr.aria-label]="'Hide password'"
+            [attr.aria-pressed]="hide"
+          >
+            <mat-icon>{{ hide ? "visibility_off" : "visibility" }}</mat-icon>
+          </button>
+
           <div>
-        <button mat-button color="accent" type="submit">Cadastrar</button>
-        <button mat-button (click)="resetarCamposCadastro()" color="primary">Resetar</button>
-        </div>
+            <button
+              [disabled]="this.senha?.value == ''" mat-button color="accent"
+              type="submit" > Cadastrar
+            </button>
+            <button
+              mat-button
+              (click)="resetarCamposCadastro()"
+              color="primary"
+            >
+              Resetar
+            </button>
+          </div>
         </mat-step>
       </mat-horizontal-stepper>
-
-
-
     </form>
   </mat-card>
 </mat-grid-list>
