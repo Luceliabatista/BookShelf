@@ -4,6 +4,7 @@
 
 .sidenav {
   width: 200px;
+  background-color: rgb(255, 255, 255);
 }
 
 .sidenav .mat-toolbar {
@@ -22,4 +23,29 @@
 }
 .example-card {
   max-width: 400px;
+}
+.menu{
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+.a
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+
+}
+.a:link {
+ color: black;
+}
+.a:hover {
+  background-color: rgba(108, 106, 110, 0.159);
+}
+.a:active {
+  color: rgb(211, 107, 22);
+}
+.example-container
+{
+  color: rgb(147, 59, 155);
+  position: fixed;
 }
