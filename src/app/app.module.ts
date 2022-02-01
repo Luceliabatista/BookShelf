@@ -35,6 +35,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { VestibularesModule } from './vestibulares/vestibulares.module';
 import { FormsModule } from '@angular/forms';
 import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 
 
@@ -47,6 +48,7 @@ import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSet
     AppCadastroComponent,
     PageNotFoundComponent,
     AppLoginComponent,
+    UserprofileComponent,
   ],
   imports: [
     BrowserModule,

@@ -85,4 +85,10 @@ export class AppLoginComponent {
     }
     console.log(`Token [${this.token}] generated`);
   }
+
+  logincomGoogle(){
+   this.autenticacaoFirebaseService.loginGoogle()
+   this.rotas.navigate(['/cdd'])
+  }
+
 }

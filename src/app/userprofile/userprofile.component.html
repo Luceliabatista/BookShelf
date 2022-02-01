@@ -1,0 +1,19 @@
+<ng-container *ngIf="usuario$ | async as usuario" >
+
+    <div class="Boxuser">
+      <mat-card class="example-card" class='boxUserProfile'>
+        <mat-card-title><h1>Informações do Usuario</h1></mat-card-title>
+        <mat-card-content>
+            <h2> {{ usuario.displayName }} </h2>
+            <h2> {{ usuario.email }} </h2>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-button>Mudar Senha</button>
+          <button mat-button  routerLink="/cdd">Sair</button>
+        </mat-card-actions>
+      </mat-card>
+
+    </div>
+
+
+</ng-container>
