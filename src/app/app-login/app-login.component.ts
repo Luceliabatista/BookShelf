@@ -70,7 +70,8 @@ export class AppLoginComponent {
   }
 
   logincomGoogle(){
-   this.autenticacaoFirebaseService.loginGoogle();
+   this.autenticacaoFirebaseService.loginGoogle()
+   this.rotas.navigate(['/cdd'])
   }
 
 }

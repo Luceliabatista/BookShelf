@@ -6,7 +6,7 @@ import {
   updateProfile
 } from 'firebase/auth';
 import { authState } from 'rxfire/auth';
-import { from, switchMap } from 'rxjs';
+import { from, pipe, switchMap } from 'rxjs';
 import { GoogleAuthProvider, signInWithPopup, getAuth} from "firebase/auth";
 
 @Injectable({
