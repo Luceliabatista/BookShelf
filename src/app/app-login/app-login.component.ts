@@ -1,5 +1,5 @@
 import { Component, Inject, Input, Output } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, Validators, NgForm } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { Router } from '@angular/router';
 import { HotToastService } from '@ngneat/hot-toast';;
@@ -11,11 +11,9 @@ import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao
   styleUrls: ['./app-login.component.scss']
 })
 export class AppLoginComponent {
-  token: string|undefined; // campo recaptcha
-
   public formularioLogin = this.loginBuilder.group({
     email: new FormControl('',[Validators.required, Validators.email]),
-    senha: new FormControl('', Validators.required),
+    senha: new FormControl('', Validators.required)
   });
 
 
@@ -28,9 +26,7 @@ export class AppLoginComponent {
     private rotas: Router,
     private autenticacaoFirebaseService: AutenticacaoFirebaseService,
 
-    ) {
-      this.token = undefined //campo recaptcha
-    }
+    ) {}
 
     get email(){
       return this.formularioLogin.get('email')
@@ -43,10 +39,6 @@ export class AppLoginComponent {
     loginFirebase(){
       if(!this.formularioLogin.valid){
         return;
-      }
-        else if(!grecaptcha.getResponse().length) {
-          this.toast.error('Confirme que você não é um robô');
-          return;
       }
       const {email, senha} = this.formularioLogin.value;
       this.autenticacaoFirebaseService.loginUsuario(email, senha)
@@ -75,15 +67,6 @@ export class AppLoginComponent {
       email: new FormControl(null),
       senha: new FormControl(null),
     });
-  }
-  public send(form: NgForm): void { //campo p recaptcha
-    if (form.invalid) {
-      for (const control of Object.keys(form.controls)) {
-        form.controls[control].markAsTouched();
-      }
-      return;
-    }
-    console.log(`Token [${this.token}] generated`);
   }
 
   logincomGoogle(){
