@@ -16,6 +16,7 @@ import { TecViewComponent } from './cdd/classTec/tec.view/tec.view.component';
 import { CriticasComponent } from './criticas/componente/criticas.component';
 import { FeedComponent } from './feed/feed.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 import { VestibularComponent } from './vestibulares/componente/vestibular/vestibular.component';
 
 const enviarSemLogin = () => redirectUnauthorizedTo(['/app-app-cadastro']);
@@ -83,6 +84,9 @@ const routes: Routes = [
   {
     path: 'livros-vendidos', component: ClassVendidoComponent,     ...canActivate(enviarSemLogin)
 
+  },
+  {
+    path:'user-profile', component: UserprofileComponent
   },
   {
     path:'**', component: PageNotFoundComponent

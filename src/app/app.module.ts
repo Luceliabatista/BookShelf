@@ -33,6 +33,8 @@ import { CriticasModule } from './criticas/criticas.module';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { VestibularesModule } from './vestibulares/vestibulares.module';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 
 
@@ -46,6 +48,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     PageNotFoundComponent,
     AppLoginComponent,
 
+    UserprofileComponent,
   ],
   imports: [
     BrowserModule,
