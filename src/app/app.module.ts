@@ -17,12 +17,14 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatRadioModule } from '@angular/material/radio';
 import { MatSelectModule } from '@angular/material/select';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatStepperModule } from '@angular/material/stepper';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HotToastModule } from '@ngneat/hot-toast';
 
 import { environment } from '../environments/environment';
+import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { AppMaterialModule } from './app-compartilhado/app-material/app-material.module';
 import { AppLoginComponent } from './app-login/app-login.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -30,7 +32,6 @@ import { AppComponent } from './app.component';
 import { CriticasModule } from './criticas/criticas.module';
 import { FeedComponent } from './feed/feed.component';
 import { NavegacaoComponent } from './navegacao/navegacao.component';
-import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { VestibularesModule } from './vestibulares/vestibulares.module';
 import { UserprofileComponent } from './userprofile/userprofile.component';
@@ -46,6 +47,7 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     AppCadastroComponent,
     PageNotFoundComponent,
     AppLoginComponent,
+
     UserprofileComponent,
   ],
   imports: [
@@ -68,6 +70,7 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     MatRadioModule,
     ReactiveFormsModule,
     CriticasModule,
+    MatStepperModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
@@ -76,6 +79,5 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     HotToastModule.forRoot()
   ],
   providers: [],
-  bootstrap: [AppComponent]
-})
+  bootstrap: [AppComponent]})
 export class AppModule { }

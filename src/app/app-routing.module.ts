@@ -66,7 +66,8 @@ const routes: Routes = [
     path: 'livros-psicologia', component: GenPsiComponent,   ...canActivate(enviarSemLogin)
   },
   {
-    path: 'livros-mes', component: ClassReportagemComponent
+    path: 'livros-mes', component: ClassReportagemComponent,     ...canActivate(enviarSemLogin)
+
   },
   {
     path: 'livros-teatro', component: ClassTeatroComponent
@@ -81,7 +82,8 @@ const routes: Routes = [
     path: 'livros-sagas', component: ClassSagasComponent
   },
   {
-    path: 'livros-vendidos', component: ClassVendidoComponent
+    path: 'livros-vendidos', component: ClassVendidoComponent,     ...canActivate(enviarSemLogin)
+
   },
   {
     path:'user-profile', component: UserprofileComponent
