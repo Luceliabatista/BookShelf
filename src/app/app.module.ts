@@ -33,8 +33,6 @@ import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { VestibularesModule } from './vestibulares/vestibulares.module';
-import { FormsModule } from '@angular/forms';
-import { RECAPTCHA_SETTINGS, RecaptchaFormsModule, RecaptchaModule, RecaptchaSettings } from 'ng-recaptcha';
 import { UserprofileComponent } from './userprofile/userprofile.component';
 
 
@@ -70,25 +68,14 @@ import { UserprofileComponent } from './userprofile/userprofile.component';
     MatRadioModule,
     ReactiveFormsModule,
     CriticasModule,
-    FormsModule,
-    RecaptchaFormsModule,
-    RecaptchaModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
     provideFirestore(() => getFirestore()),
     provideStorage(() => getStorage()),
-    HotToastModule.forRoot(),
-
+    HotToastModule.forRoot()
   ],
-  providers: [
-    {
-      provide: RECAPTCHA_SETTINGS,
-      useValue: {
-        siteKey: environment.recaptcha.siteKey
-      } as RecaptchaSettings,
-    }
-  ],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
