@@ -1,8 +1,14 @@
-.grid-container {
+.grid-container,
+.mat-card-avatar {
   margin: 20px;
   max-width: 1080px;
+  max-height: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.mat-h1 {
+  text-align: center;
 }
 
 .dashboard-card {
@@ -10,16 +16,31 @@
   top: 15px;
   left: 15px;
   right: 15px;
-  bottom: 15px;
 }
 
-.more-button {
-  position: absolute;
-  top: 5px;
-  right: 10px;
+img {
+  max-height: 300px;
+  min-height: 300px;
+  border-radius: 10px;
+}
+
+.titulo,
+.subtitulo {
+  text-align: center;
+  margin-bottom: 18px;
 }
 
 .dashboard-card-content {
-  text-align: center;
+  text-indent: 1.5em;
+  font-size: 17px;
+}
+
+.clickSaibaMais {
+  text-align: left;
+  font-size: 14px;
+}
+
+.button {
+  font-size: 20px;
 }
 

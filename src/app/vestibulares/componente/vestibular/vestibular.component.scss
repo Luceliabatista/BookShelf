@@ -1,0 +1,54 @@
+.grid-container,
+.mat-card-avatar {
+  max-width: 1380px;
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mat-h1 {
+    margin-top:55px;
+}
+.dashboard-card {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  margin: 10px;
+}
+
+.more-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.dashboard-card-content {
+  text-align: center;
+}
+
+img {
+  max-height: 300px;
+  min-height: 200px;
+  max-width: 600px;
+  min-width: 50px;
+}
+
+h2 {
+  margin-top: 55px;
+  font-size:x-large;
+}
+
+h1 {
+ font-size:xx-large;
+}
+.mat-card-header {
+  display: flex;
+  flex-direction: column-reverse;
+  max-height: 200px;
+}
+
+.mat-card-avatar {
+  height: 0;
+}

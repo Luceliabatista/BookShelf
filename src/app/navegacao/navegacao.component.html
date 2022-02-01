@@ -3,9 +3,12 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
     <a routerLink="/cdd">
       <img mat-card-image [src]="logoMenu" alt="Imagem do logo no menu" /></a>
-     <!-- <p>{{email}}</p> -->{{usuarioMenu}}
     <mat-nav-list *ngFor="let itemMenu of itensMenu$ | async; index as i">
-      <a mat-list-item *ngIf="itemMenu.hab === true" [href]="itemMenu.linkMenu">{{ itemMenu.labelMenu }}</a>
+      <mat-list>
+      </mat-list>
+        <mat-list-item>
+          <a class="a" mat-list-item *ngIf="itemMenu.hab === true" [href]="itemMenu.linkMenu">{{ itemMenu.labelMenu }}</a>
+        </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -24,7 +27,7 @@
       <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
 
         <button mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu">
-          <mat-icon *ngIf="larguraInterna > 600" class="mat-18">local_library</mat-icon>
+          <mat-icon class="mat-18">local_library</mat-icon>
           {{ usuario.displayName }}
           <mat-icon>expand_more</mat-icon>
         </button>
@@ -42,6 +45,13 @@
     <mat-menu #usuarioMenu="matMenu">
       <button mat-menu-item (click)="sairUsuario()">LOGOUT</button>
     </mat-menu>
+    <mat-drawer-container class="example-container" autosize>
+    <div class="example-sidenav-content">
+      <button type="button" mat-button (click)="drawer.toggle()"><!-- botao pra expandir barra lateral -->
+        <mat-icon>compare_arrows</mat-icon>
+      </button>
+    </div>
+  </mat-drawer-container>
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
