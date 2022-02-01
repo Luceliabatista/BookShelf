@@ -33,6 +33,7 @@ import { NavegacaoComponent } from './navegacao/navegacao.component';
 import { AppCadastroComponent } from './app-cadastro/app-cadastro.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { VestibularesModule } from './vestibulares/vestibulares.module';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 
 
@@ -45,6 +46,7 @@ import { VestibularesModule } from './vestibulares/vestibulares.module';
     AppCadastroComponent,
     PageNotFoundComponent,
     AppLoginComponent,
+    UserprofileComponent,
   ],
   imports: [
     BrowserModule,
