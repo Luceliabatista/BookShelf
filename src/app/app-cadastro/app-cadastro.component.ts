@@ -74,7 +74,6 @@ export class AppCadastroComponent implements OnInit {
   // #51 - Rotina para limpar campos de cadastro [10 pts]
   resetarCamposCadastro() {
     this.formularioCadastro.reset();
-    console.log('Limpou campos cadastro');
     this.formularioCadastro = new FormGroup({
       nome: new FormControl(null),
       email: new FormControl(null),
