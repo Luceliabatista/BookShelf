@@ -9,19 +9,28 @@
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
-    <mat-toolbar color="primary">
+    <mat-toolbar color="{{toolbarColor}}">
       <button type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Menu BookShelf Lateral">menu</mat-icon>
       </button>
       <img *ngIf="larguraInterna > 600" mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" />
+
+      <div id="barra" >
+      <button (click)="changeColor()" class="muda-cor" >
+        <span class="material-icons">format_color_fill</span>
+      </button>
+
       <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
+
         <button mat-raised-button color="primary" [matMenuTriggerFor]="usuarioMenu">
           <mat-icon *ngIf="larguraInterna > 600" class="mat-18">local_library</mat-icon>
           {{ usuario.displayName }}
           <mat-icon>expand_more</mat-icon>
         </button>
+
       </ng-container>
+    </div>
       <ng-template #botaoLogin>
         <button mat-raised-button color="primary" (click)="abrirLogin('Tela de Login')">
           <mat-icon class="mat-18">login</mat-icon>
@@ -29,6 +38,7 @@
         </button>
       </ng-template>
     </mat-toolbar>
+
     <mat-menu #usuarioMenu="matMenu">
       <button mat-menu-item (click)="sairUsuario()">LOGOUT</button>
     </mat-menu>

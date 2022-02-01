@@ -10,11 +10,29 @@
   background: inherit;
 }
 
-.mat-toolbar.mat-primary {
+.mat-toolbar {
+  display: flex;
   position: sticky;
   top: 0;
   z-index: 1;
   justify-content: space-between;
+}
+
+#barra {
+  display: flex;
+  align-items: center;
+}
+
+.muda-cor {
+  gap: 5px;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 5px 10px;
+  background: transparent;
+  color: white;
+}
+.muda-cor:hover {
+  font-weight: bold;
 }
 
 .mat-card-image {

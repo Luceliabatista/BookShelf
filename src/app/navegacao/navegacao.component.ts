@@ -32,6 +32,10 @@ export class NavegacaoComponent {
       map(result => result.matches),
       shareReplay()
     );
+
+    toolbarColor : string = 'primary';
+    toolbarBoolean: boolean = true;
+
   constructor(
     private breakpointObserver: BreakpointObserver,
     private telaLogin: MatDialog,
@@ -46,6 +50,12 @@ export class NavegacaoComponent {
           return of([])
         })
       )
+    }
+
+    //mudar cor toolbar
+    changeColor(){
+      this.toolbarColor = this.toolbarColor === 'primary' ? 'accent' : 'primary';
+      this.toolbarBoolean = !this.toolbarBoolean;
     }
 
     abrirLogin(erroMsg: string){
