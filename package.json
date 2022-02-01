@@ -24,6 +24,7 @@
     "@ngneat/hot-toast": "^4.1.0",
     "@ngneat/overview": "^3.0.0",
     "@types/gapi.auth2": "^0.0.56",
+    "ng-recaptcha": "^9.0.0",
     "firebase": "^9.6.5",
     "rxfire": "^6.0.0",
     "rxjs": "~7.4.0",
