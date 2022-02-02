@@ -1,29 +1,26 @@
 .sidenav-container {
   height: 100%;
 }
-
 .sidenav {
   width: 200px;
   background-color: rgb(255, 255, 255);
 }
-
 .sidenav .mat-toolbar {
   background: inherit;
 }
-
 .mat-toolbar {
   display: flex;
   position: sticky;
   top: 0;
   z-index: 1;
-  justify-content: space-between ;
+  justify-content: space-between;
+  position: fixed;
+  position: relative;
 }
-
 #barra {
   display: flex;
   align-items: center;
 }
-
 .muda-cor {
   gap: 5px;
   cursor: pointer;
@@ -35,35 +32,38 @@
 .muda-cor:hover {
   font-weight: bold;
 }
-
 .mat-card-image {
   width: 200px;
 }
 .example-card {
   max-width: 400px;
 }
-.menu{
+.menu {
   position: absolute;
   top: 150px;
   left: 150px;
 }
-.a
-{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 5px;
-
-}
-.a:link {
- color: black;
+  border: 0;
+  outline: 0;
 }
 .a:hover {
   background-color: rgba(108, 106, 110, 0.159);
+  transition: all 0.5s;
+  cursor: pointer;
 }
-.a:active {
-  color: rgb(211, 107, 22);
-}
-.example-container
-{
-  color: rgb(147, 59, 155);
+.example-container {
+  display: flex;
+  color: rgb(8, 8, 8);
   position: fixed;
+  position: relative;
+
+}
+.email {
+  margin: 10px;
+}
+span{
+  border-top: black 10px;
 }
