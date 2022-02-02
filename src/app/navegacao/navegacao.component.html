@@ -3,12 +3,11 @@
     [mode]="(isHandset$ | async) ? 'over' : 'side'" [opened]="(isHandset$ | async) === false">
     <a routerLink="/cdd">
       <img mat-card-image [src]="logoMenu" alt="Imagem do logo no menu" /></a>
-    <mat-nav-list *ngFor="let itemMenu of itensMenu$ | async; index as i">
-      <mat-list>
-      </mat-list>
-        <mat-list-item>
+      <div class="email" *ngIf="usuario$ | async as usuario">
+        <span matBadge="4" matBadgeOverlap="false"> {{ usuario.email }}</span>
+      </div>
+    <mat-nav-list class="item" *ngFor="let itemMenu of itensMenu$ | async; index as i">
           <a class="a" mat-list-item *ngIf="itemMenu.hab === true" [href]="itemMenu.linkMenu">{{ itemMenu.labelMenu }}</a>
-        </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -17,20 +16,17 @@
         *ngIf="isHandset$ | async">
         <mat-icon aria-label="Menu BookShelf Lateral">menu</mat-icon>
       </button>
-      <img *ngIf="larguraInterna > 600" mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" />
-
+     <a routerLink="/cdd"><img *ngIf="larguraInterna > 600" mat-card-sm-image [width]="lIcone" [height]="aIcone" [src]="iconeGeral" /></a>
       <div id="barra" >
       <button (click)="changeColor()" class="muda-cor" >
         <span class="material-icons">format_color_fill</span>
       </button>
-
       <ng-container *ngIf="usuario$ | async as usuario; else botaoLogin">
         <button mat-raised-button color="accent" [matMenuTriggerFor]="usuarioMenu">
           <mat-icon class="mat-18">person_pin</mat-icon>
           {{ usuario.displayName }}
           <mat-icon>expand_more</mat-icon>
         </button>
-
       </ng-container>
     </div>
       <ng-template #botaoLogin>
@@ -40,7 +36,6 @@
         </button>
       </ng-template>
     </mat-toolbar>
-
     <mat-menu #usuarioMenu="matMenu">
       <button mat-menu-item routerLink="user-profile">Minhas Informações</button>
       <button mat-menu-item (click)="sairUsuario()">Logout</button>
