@@ -24,7 +24,6 @@ export class NavegacaoComponent {
   iconeGeral='../../assets/imagens/ShelfBook.png';
   lIcone=80;
   aIcone=80;
-  //Controle das rotas do menu.
   itensMenu$: Observable<MenuNavegador[]>
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
@@ -50,7 +49,6 @@ export class NavegacaoComponent {
         })
       )
     }
-
     //mudar cor toolbar
     changeColor(){
       this.toolbarColor = this.toolbarColor === 'primary' ? 'accent' : 'primary';
@@ -62,7 +60,6 @@ export class NavegacaoComponent {
         data: erroMsg
       })
     }
-
     sairUsuario(){
       this.autenticacaoFirebaseService.sairLogin().pipe(
         this.toast.observe({
