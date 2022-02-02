@@ -10,7 +10,6 @@ import { AppLoginComponent } from './../app-login/app-login.component';
 import { MenuNavegador } from './../modelosInterface/menuNavegador';
 import { AutenticacaoFirebaseService } from './../servicosInterface/autenticacao-firebase.service';
 import { NavegacaoService } from './../servicosInterface/navegacao.service';
-import { getAuth } from "firebase/auth";
 
 @Component({
   selector: 'app-navegacao',
@@ -19,12 +18,9 @@ import { getAuth } from "firebase/auth";
 })
 export class NavegacaoComponent {
   showFiller = false
- // email = this.autenticacaoFirebaseService.email()
 
   usuario$ = this.autenticacaoFirebaseService.usuarioLogado$;
-  //Itens co menu principal.
   logoMenu='../../assets/imagens/logoBS4.png';
-  //Itens de icones e imagens de navegação.
   iconeGeral='../../assets/imagens/ShelfBook.png';
   lIcone=80;
   aIcone=80;
@@ -78,25 +74,6 @@ export class NavegacaoComponent {
         this.rotas.navigate([''])
       })
     }
-
-  public  pegarEmail(){
-      const auth = getAuth();
-      const user = auth.currentUser;
-      if (user !== null) {
-
-        const displayName = user.displayName;
-       // const email = user.email;
-        //console.log(email)
-        const photoURL = user.photoURL;
-        const emailVerified = user.emailVerified;
-        const uid = user.uid;
-        const email = (''+ user.email);
-
-      }
-return this.pegarEmail
-    }
-    a = this.pegarEmail()
-
 
     //melhorias tollbar
     larguraInterna!: number;
